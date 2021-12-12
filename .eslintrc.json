@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "camelcase": "warn",
+    "quotes": ["warn", "single"],
+    "no-extra-semi": "warn"
+  }
 }

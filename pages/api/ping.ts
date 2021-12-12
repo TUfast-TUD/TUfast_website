@@ -9,5 +9,5 @@ export default function handler(
   _req: NextApiRequest,
   res: NextApiResponse<Pong>
 ) {
-  res.status(200).json({ operational: true, message: "Pong" })
+  res.status(200).json({ operational: true, message: 'Pong' })
 }

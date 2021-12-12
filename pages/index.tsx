@@ -1,21 +1,27 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
+import Link from 'next/link'
 import { browserName } from 'react-device-detect'
-import styles from '../styles/Home.module.scss'
+import Layout from '../components/Layout'
 
 const Home: NextPage = () => {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>TUfast - Das Produktivitäts-Tool für TU Dresden Studierende 🚀</title>
-        <meta name="description" content="TUfast ist ein Browser-Addon, dass den Alltag von Studierenden an der TU Dresden erleichtert. Es kann unter anderem automaisch Logins vornehmen und Benachrichtigungen für neue E-Mail geben." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+  const wsLinks: Record<string, string> = {
+    firefox: 'https://addons.mozilla.org/de/firefox/addon/tufast/',
+    chrome: 'https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk',
+    edge: 'https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk'
+  }
 
-      <main className={styles.main}>
-        Du nutzt {browserName}.
-      </main>
-    </div>
+  let bigLink = <Link href={ wsLinks.chrome }>Chrome</Link>
+  if (browserName.toLowerCase() == 'edge' || browserName.toLowerCase() == 'firefox') bigLink = <Link href={ wsLinks[browserName.toLowerCase()] }>{ browserName }</Link>
+
+  return (
+    <Layout>
+      <div>
+        <h1>Unlimit your studies.</h1>
+        <h2>For TU Dresden students (and employees) only.</h2>
+        <h2>Install now for { bigLink }</h2>
+        Available for <Link href={wsLinks.firefox}>Firefox</Link> and <Link href={wsLinks.chrome}>Chrome-based browsers</Link>.
+      </div>
+    </Layout>
   )
 }
 

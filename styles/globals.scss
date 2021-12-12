@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   color: --color-text-primary;
 }
 
 body {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  height: 100vh;
+  min-height: 100vh;
 }
 
 h1, h2, h3 {
@@ -35,3 +37,4 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
