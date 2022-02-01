@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import { Divider, Layout, Space, Menu } from 'antd'
-import { Rocket } from 'phosphor-react'
+import Rocket from './Rocket'
 import styles from '../styles/Layout.module.scss'
 
 const { Header, Content, Footer } = Layout
@@ -23,18 +23,28 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
 
     return (<>
         <Head>
-            <title>{site ? '' : `${site} - `}TUfast - Das Produktivitäts-Tool für TU Dresden Studierende 🚀</title>
+            <title>{site ? `${site} - ` : ''}TUfast - Das Produktivitäts-Tool für TU Dresden Studierende 🚀</title>
             <meta name="description" content="TUfast ist ein Browser-Addon, dass den Alltag von Studierenden an der TU Dresden erleichtert. Es kann unter anderem automaisch Logins vornehmen und Benachrichtigungen für neue E-Mail geben." />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <Layout style={{height: '100vh'}}>
             <Header>
-                <div id={'logo'} style={{float: 'left'}}><Rocket /> TUfast</div>
-                <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []}>
-                    <Link href={'/project'} passHref><Menu.Item key={'project'}>Project and Vision</Menu.Item></Link>
-                    <Link href={'/team'} passHref><Menu.Item key={'team'}>Team</Menu.Item></Link>
-                    <Link href={'/jobs'} passHref><Menu.Item key={'jobs'}>Jobs</Menu.Item></Link>
-                    <Link href={'/blog'} passHref><Menu.Item key={'blog'}>Blog</Menu.Item></Link>
+                <Link href={'/'} passHref>
+                    <a className={styles.logo}><Rocket/> TUfast</a>
+                </Link>
+                <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []} style={{fontSize: '1rem'}}>
+                    <Menu.Item key={'project'}>
+                        <Link href={'/project'} passHref><a>Project and Vision</a></Link>
+                    </Menu.Item>
+                    <Menu.Item key={'team'}>
+                        <Link href={'/team'} passHref><a>Team</a></Link>
+                    </Menu.Item>
+                    <Menu.Item key={'jobs'}>
+                        <Link href={'/jobs'} passHref><a>Jobs</a></Link>
+                    </Menu.Item>
+                    <Menu.Item key={'blog'}>
+                        <Link href={'/blog'} passHref><a>Blog</a></Link>
+                    </Menu.Item>
                 </Menu>
             </Header>
             <Content className={styles.mainContainer}>
