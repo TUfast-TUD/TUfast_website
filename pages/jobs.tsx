@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-const Project = () => {
+const Jobs = () => {
     return (
         <Layout site="Jobs" siteKey="jobs">
             Jobs
@@ -8,4 +8,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Jobs

@@ -1,5 +1,12 @@
 .mainContainer {
     padding: 50px;
+    max-width: 1920px;
+    width: 100%;
+    align-self: center;
+
+    p {
+        margin-bottom: 10px;
+    }
 }
 
 .logo {

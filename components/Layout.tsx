@@ -15,8 +15,9 @@ interface LayoutProps {
 const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
     const linksObj = [
         { text: 'Github', href: 'https://github.com/TUfast-TUD' },
-        { text: 'tufast@tu-dresden.de', href: 'mailto:tufast@tu-dresden.de' },
-        { text: 'matrix', href: 'https://google.de' },
+        { text: 'frage@tu-fast.de', href: 'mailto:frage@tu-fast.de' },
+        { text: 'matrix', href: 'https://matrix.to/#/#tu-fast:tu-dresden.de' },
+        { text: 'Datenschutz', href: '/datenschutz' },
     ]
 
     const links = linksObj.map((link) => <Link href={link.href} key={link.text}>{link.text}</Link>)

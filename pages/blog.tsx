@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 
-const Project = () => {
+const Blog = () => {
     return (
         <Layout site="Blog" siteKey="blog">
             Blog
@@ -8,4 +8,4 @@ const Project = () => {
     )
 }
 
-export default Project
+export default Blog
