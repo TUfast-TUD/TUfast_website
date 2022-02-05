@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { browserName } from 'react-device-detect'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.scss'
@@ -16,66 +17,68 @@ const Home: NextPage = () => {
 
   const fsrIcons = [
     {
-      name: "FSR Elektrotechnik",
-      url: "https://fsret.de/",
-      logo: "/fsr-icons/fsr_et.png"
+      name: 'FSR Elektrotechnik',
+      url: 'https://fsret.de/',
+      logo: '/fsr-icons/fsr_et.png'
     },
     {
-      name: "FSR Geowissenschaften",
-      url: "https://tu-dresden.de/bu/umwelt/geo/fsr",
-      logo: "/fsr-icons/fsr_geo.png"
+      name: 'FSR Geowissenschaften',
+      url: 'https://tu-dresden.de/bu/umwelt/geo/fsr',
+      logo: '/fsr-icons/fsr_geo.png'
     },
     {
-      name: "FSR Mathe",
-      url: "https://myfsr.de/",
-      logo: "/fsr-icons/fsr_mathe.png"
+      name: 'FSR Mathe',
+      url: 'https://myfsr.de/',
+      logo: '/fsr-icons/fsr_mathe.png'
     },
     {
-      name: "FSR Medizin",
-      url: "https://www.medforum-dresden.de/",
-      logo: "/fsr-icons/fsr_medi.png"
+      name: 'FSR Medizin',
+      url: 'https://www.medforum-dresden.de/',
+      logo: '/fsr-icons/fsr_medi.png'
     },
     {
-      name: "FSR Maschinenwesen",
-      url: "https://tu-dresden.de/ing/maschinenwesen/fsr",
-      logo: "/fsr-icons/fsr_mw.png"
+      name: 'FSR Maschinenwesen',
+      url: 'https://tu-dresden.de/ing/maschinenwesen/fsr',
+      logo: '/fsr-icons/fsr_mw.png'
     },
     {
-      name: "FSR Psychologie",
-      url: "https://tu-dresden.de/mn/psychologie/fsrpsy",
-      logo: "/fsr-icons/fsr_psy.png"
+      name: 'FSR Psychologie',
+      url: 'https://tu-dresden.de/mn/psychologie/fsrpsy',
+      logo: '/fsr-icons/fsr_psy.png'
     },
     {
-      name: "FSR Wirtschaftswissenschaften",
-      url: "https://fsrwiwi.de/",
-      logo: "/fsr-icons/fsr_wiwi.png"
+      name: 'FSR Wirtschaftswissenschaften',
+      url: 'https://fsrwiwi.de/',
+      logo: '/fsr-icons/fsr_wiwi.png'
     },
 
   ]
 
   return (
     <Layout>
-      <div className={styles.section}>
-        <h1>Unlimit your studies.</h1>
-        <h2>For TU Dresden students (and employees) only.</h2>
-        <h2 style={{marginBottom: 0}}>Install now for { bigLink }</h2>
-        <p style={{fontSize: 14}}>
-          Available for <Link href={wsLinks.firefox}>Firefox</Link> and <Link href={wsLinks.chrome}>Chrome-based browsers</Link>.
-        </p>
+      <div className={styles.mainWrapper}>
+        <div className={styles.section}>
+          <h1>Unlimit your studies.</h1>
+          <h2>For TU Dresden students (and employees) only.</h2>
+          <h2 style={{marginBottom: 0}}>Install now for { bigLink }</h2>
+          <p style={{fontSize: 14}}>
+            Available for <Link href={wsLinks.firefox}>Firefox</Link> and <Link href={wsLinks.chrome}>Chromium-based browsers</Link>.
+          </p>
+        </div>
+
+        <div className={styles.section}>
+          <h3>By students, for students. Free & Open Source.</h3>
+          <p>
+            TUfast ist das #1 Produktivitätstool für TU Dresden Studierende.<br/>
+            Seit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.
+          </p>
+          <p>
+            Erfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser.
+          </p>
+        </div>
       </div>
 
-      <div className={styles.section}>
-        <h3>By students, for students. Free & Open Source.</h3>
-        <p>
-          TUfast ist das #1 Produktivitätstool für TU Dresden Studierende.<br/>
-          Seit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.
-        </p>
-        <p>
-          Erfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser.
-        </p>
-      </div>
-
-      <div className={styles.section}>
+      <div className={styles.section} id="project">
         <h2>Projekt & Vision</h2>
 
         <h3>Vision</h3>
@@ -96,7 +99,7 @@ const Home: NextPage = () => {
         <div className={styles.fsrIcons}>
           {fsrIcons.map((val, i) =>
             <a href={val.url} title={val.name} key={i}>
-              <img src={val.logo} alt={val.name} />
+              <Image src={val.logo} alt={val.name} layout='fill' className={styles.nextImg}/>
             </a>
           )}
         </div>
