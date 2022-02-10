@@ -4,16 +4,33 @@ import Image from 'next/image'
 import { browserName } from 'react-device-detect'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.scss'
+import { useEffect, useState } from 'react'
 
 const Home: NextPage = () => {
-  const wsLinks: Record<string, string> = {
-    firefox: 'https://addons.mozilla.org/de/firefox/addon/tufast/',
-    chrome: 'https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk',
-    edge: 'https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk'
+
+  const browserList: Record<string, {name: string, url: string, icon: string}> = {
+    firefox: {
+      name: 'Firefox',
+      url: 'https://addons.mozilla.org/de/firefox/addon/tufast/',
+      icon: '/browser-icons/firefox.svg'
+    },
+    chrome: {
+      name: 'Chrome',
+      url: 'https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk',
+      icon: '/browser-icons/chrome.svg'
+    },
+    edge: {
+      name: 'Edge',
+      url: 'https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk',
+      icon: '/browser-icons/edge.svg'
+    },
   }
 
-  let bigLink = <Link href={ wsLinks.chrome }>Chrome</Link>
-  if (browserName.toLowerCase() == 'edge' || browserName.toLowerCase() == 'firefox') bigLink = <Link href={ wsLinks[browserName.toLowerCase()] }>{ browserName }</Link>
+  const [browser, setBrowser] = useState(browserList.chrome)
+
+  useEffect(() => {
+    if (['edge', 'firefox'].includes(browserName.toLowerCase())) setBrowser(browserList[browserName.toLowerCase()])
+  }, [])
 
   const fsrIcons = [
     {
@@ -60,9 +77,9 @@ const Home: NextPage = () => {
         <div className={styles.section}>
           <h1>Unlimit your studies.</h1>
           <h2>For TU Dresden students (and employees) only.</h2>
-          <h2 style={{marginBottom: 0}}>Install now for { bigLink }</h2>
+          <h2 style={{marginBottom: 0}}>Install now for <Link href={browser.url}>{browser.name}</Link> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>
           <p style={{fontSize: 14}}>
-            Available for <Link href={wsLinks.firefox}>Firefox</Link> and <Link href={wsLinks.chrome}>Chromium-based browsers</Link>.
+            Available for <Link href={browserList.firefox.url}>Firefox</Link> and <Link href={browserList.chrome.url}>Chromium-based browsers</Link>.
           </p>
         </div>
 
