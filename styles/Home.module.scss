@@ -34,19 +34,7 @@
         height: 60px;
     }
 
-    // next/image reset
-    a > span {
-        display: contents !important;
-
-        img {
-            object-fit: contain;
-            width: 100% !important;
-            position: relative !important;
-            height: unset !important;
-        }
-
-        noscript img {
-            margin-top: -60px !important;
-        }
+    img {
+        height: 100%;
     }
 }

@@ -3,6 +3,7 @@
   "rules": {
     "camelcase": "warn",
     "quotes": ["warn", "single"],
-    "no-extra-semi": "warn"
+    "no-extra-semi": "warn",
+    "@next/next/no-img-element": "off"
   }
 }

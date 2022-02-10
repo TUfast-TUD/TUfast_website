@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-import Image from 'next/image'
 import { browserName } from 'react-device-detect'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.scss'
@@ -116,7 +115,7 @@ const Home: NextPage = () => {
         <div className={styles.fsrIcons}>
           {fsrIcons.map((val, i) =>
             <a href={val.url} title={val.name} key={i}>
-              <Image src={val.logo} alt={val.name} layout='fill' className={styles.nextImg}/>
+              <img src={val.logo} alt={val.name}/>
             </a>
           )}
         </div>
