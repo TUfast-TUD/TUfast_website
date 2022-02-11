@@ -4,6 +4,7 @@ import { browserName } from 'react-device-detect'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.scss'
 import { useEffect, useState } from 'react'
+import { BsChevronCompactDown } from 'react-icons/bs'
 
 const Home: NextPage = () => {
 
@@ -92,6 +93,8 @@ const Home: NextPage = () => {
             Erfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser.
           </p>
         </div>
+
+        <BsChevronCompactDown className={styles.scrollIndicator}/>
       </div>
 
       <div className={styles.section} id="project">
