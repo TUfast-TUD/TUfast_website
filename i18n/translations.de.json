@@ -3,5 +3,26 @@
     "selector": "Sprache",
     "de": "🇩🇪 Deutsch",
     "en": "🇬🇧 Englisch"
+  },
+  "nav": {
+    "projectAndVision": "Projekt und Vision"
+  },
+  "index": {
+    "mainHeading": "Unlimit your studies.",
+    "subHeading": "For TU Dresden students (and employees) only.",
+    "installPrompt": "Install now for",
+    "availableFor": "Verfügbar für [Firefox]({{firefox}}) und [Chromium-basierte Browser]({{chrome}}).",
+    "infoSection": "# By students, for students. Free & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+  },
+  "projectAndVision": {
+    "h": "Projekt und Vision",
+    "sections": [
+      "# Vision\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende. Seit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nUnser Ziel ist es, 5000 Nutzer an der TU Dresden zu gewinnen und die Erweiterung für weitere Hochschulen in Sachsen verfügbar zu machen.",
+      "# Funktionen\nTUfast stellt derzeit folgende Funktionen zur Verfügung: automatisches Anmelden in die Online-Portale der TU Dresden, Schnellzugriffe und Hotkeys auf die Online-Portale, Übersicht über alle OPAL-Kurse und Verbesserungen in OPAL selbst. Mehr kannst du in TUfast entdecken ;)\n\nWir (die Entwickler) nutzen das Projekt auch, um uns selbst in Softwareentwicklung und Produktmanagement weiterzuentwickeln.",
+      "# Projektinformationen\nTUfast wurde 05.2020 veröffentlicht, ist [quelloffen](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden entwickelt. Stand 07.12.2021 hat TUfast ca. 2500 Nutzer auf allen Plattformen. Eine konkrete Roadmap zum erreichen unserer Ziele findest du auf [GitHub](https://github.com/orgs/TUfast-TUD/projects/1).\n\nUnterstützt wird das Projekt durch\n\\- Frau Jantos (eLearning-Koordinatorin) / Herr Jantos (SELMA-PM)\n\\- die folgenden FSR:\n***",
+      "# Ist die Anwendung sicher?\nToDo: Überprüfung Informationssicherheit",
+      "# Datenschutz\nDie Erweiterung speichert personenbezogene Daten ausschließlich lokal auf dem PC. Wenn du die Erweiterung löschst, werden alle Daten gelöscht. Das wird immer so bleiben! Hier findest du die [Datenschutzerklärung](/datenschutz).",
+      "# Kontakt\n[frage@tu-fast.de](mailto:frage@tu-fast.de)"
+    ]
   }
 }
