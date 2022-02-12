@@ -22,9 +22,15 @@
 }
 
 .navbar {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
+
+    .languageSelector {
+        padding: 0 20px;
+        margin-left: auto;
+    }
 }
