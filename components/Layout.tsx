@@ -43,7 +43,7 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         <Head>
             <title>{site ? `${site} - ` : ''}TUfast - Das Produktivitäts-Tool für TU Dresden Studierende 🚀</title>
             <meta name="description" content="TUfast ist ein Browser-Addon, dass den Alltag von Studierenden an der TU Dresden erleichtert. Es kann unter anderem automaisch Logins vornehmen und Benachrichtigungen für neue E-Mail geben." />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.png" />
         </Head>
         <Layout className={styles.layout}>
             <Header className={styles.navbar}>
