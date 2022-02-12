@@ -4,6 +4,7 @@
     "camelcase": "warn",
     "quotes": ["warn", "single"],
     "no-extra-semi": "warn",
-    "@next/next/no-img-element": "off"
+    "@next/next/no-img-element": "off",
+    "react/no-children-prop": "off"
   }
 }

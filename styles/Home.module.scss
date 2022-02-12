@@ -8,6 +8,10 @@
     margin-bottom: 100px;
     padding: 0 min(20vw - 100px, 100px); // 2*50px padding
     gap: min(20vh - 200px, 70px); // 2*50 padding + 64 navbar + 36 margin offset
+
+    .availableFor {
+        font-size: 14px;
+    }
 }
 
 .scrollIndicator {

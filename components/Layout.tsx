@@ -53,7 +53,7 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
 
                 <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []} style={{fontSize: '1rem'}}>
                     <Menu.Item key={'project'}>
-                        <Link href={'/#project'} passHref><a>Project and Vision</a></Link>
+                        <Link href={'/#project'}>{t('nav.projectAndVision')}</Link>
                     </Menu.Item>
                     {/* <Menu.Item key={'project'}>
                         <Link href={'/project'} passHref><a>Project and Vision</a></Link>
