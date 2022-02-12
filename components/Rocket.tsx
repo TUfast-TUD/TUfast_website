@@ -1,7 +1,7 @@
-const Rocket = () =>
+const Rocket: React.FunctionComponent<{style?: React.CSSProperties}> = ({style}) =>
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="1em" height="1em" viewBox="0 0 1278.000000 1280.000000"
- preserveAspectRatio="xMidYMid meet" style={{verticalAlign: 'text-top'}}>
+ preserveAspectRatio="xMidYMid meet" style={style}>
 <g transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
 fill="currentColor" stroke="none">
 <path d="M11020 12790 c-659 -63 -1418 -308 -2290 -741 -1135 -562 -2360
