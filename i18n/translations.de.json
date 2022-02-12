@@ -8,11 +8,11 @@
     "projectAndVision": "Projekt und Vision"
   },
   "index": {
-    "mainHeading": "Unlimit your studies.",
-    "subHeading": "For TU Dresden students (and employees) only.",
-    "installPrompt": "Install now for",
+    "mainHeading": "Das Produktivitätstool.",
+    "subHeading": "Für TU Dresden Studierende (und Mitarbeiter)",
+    "installPrompt": "Hol's dir jetzt für",
     "availableFor": "Verfügbar für [Firefox]({{firefox}}) und [Chromium-basierte Browser]({{chrome}}).",
-    "infoSection": "# By students, for students. Free & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+    "infoSection": "# Von Studenten, für Studenten. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
   },
   "projectAndVision": {
     "h": "Projekt und Vision",
