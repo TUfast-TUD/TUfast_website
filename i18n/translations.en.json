@@ -5,25 +5,27 @@
     "en": "🇬🇧 English"
   },
   "nav": {
-    "projectAndVision": "Project and Vision"
+    "projectAndVision": "The Project"
   },
   "index": {
     "mainHeadingTUfast": "TUfast",
-    "mainHeading": "Unlimit your studies.",
+    "mainHeading": "The productivity tool.",
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}) and [Chromium-based browsers]({{chrome}}).",
     "infoSection": "# By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden .\nFor two years now we are developing together with you and the FSRs the perfect product for your everyday student life..\n\nFind out more about the project on this site and install TUfast now!"
   },
   "projectAndVision": {
-    "h": "Projekt and Vision",
+    "h": "The Project",
     "sections": [
-      "# Vision\nTUfast is the #1 productivity tool for students at TU Dresden. For two years now we are developing together with you and the FSRs the perfect product for your everyday student life. We are aiming at 5000 Users at TU Dresden and releasing the tool for one more school in saxony.",
-      "# Functions\nTUfast provides the following functionality: auto-login in online-platforms of TU Dresden, quick-accesses and hotkeys, overview on all OPAL-courses as well as improvements for OPAL itself. Find out more after installing TUfast!",
-      "# Project information\nTUfast was released at 05.2020, is [open-source](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students. As of 01.01.2022 TUfast has about 2500 Users on all plattforms. Currently, [Firefox](https://addons.mozilla.org/de/firefox/addon/tufast/) and [chromium-based](https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk) browsers are supported. A project roadmap can be found in GitHub.\n\nThe project is supported by\n\\- Frau Jantos (eLearning-Koordinatorin) / Herr Jantos (SELMA-PM)\n\\- The following FSRs:\n***",
-      "# Is TUfast secure?\nToDo: Überprüfung Informationssicherheit",
-      "# Privacy notice\nTUfast saves user data only locally on your PC. If TUfast is uninstalled all data will be deleted. It will stay like that forever! Here you can find the full privacy notice for TUfast: [privacy notice](/datenschutz).",
-      "# Contact\n[frage@tu-fast.de](mailto:frage@tu-fast.de)"
+      "TUfast was released in 05.2020, is [open-source](https://github.com/TUfast-TUD/TUfast_TUD),  developed by students and has 2500+ users as of 01.01.2022. For two years now we are developing together with you and the FSRs the perfect product for your everyday student life.",
+      "We aim at providing TUfast for 5000 students and employees at TU Dresden, as well as for at least one more school in saxony.",
+      "# What does TUfast do?\nTUfast provides a bunch of functions to speed up your everyday student life. Among them are:",
+      "- AutoLogin in all online-platforms of TU Dresden \n - Quick-accesses and hotkeys to many platform \n - Supports SELMA, OPAL, OWA und viele mehr \n - Overview of all your OPAL-courses as well as improvements for OPAL itself. \n - ... and many more you will find when using TUfast ;)",
+      "TUfast has been reported to **save 2000 Clicks and 90 minutes per semester!**",
+      "# Is TUfast secure?\n The TUfast-Extension saves user data exclusively locally on your computer. If you uninstall the extension all data will be removed. As we care about user data and privacy TUfast is currently scrutineered by the Informationssicherheit of TU Dresden. Here you can read the full [privacy notice](www.todo.com) on TUfast.",
+      "# Further information\n The project is currently been supported by:",
+      "- Frau Jantos (eLearning-Koordinatorin) and Herr Jantos (SELMA-Produktmanager) \n - The following FSRs:\n***"
     ]
   }
 }
