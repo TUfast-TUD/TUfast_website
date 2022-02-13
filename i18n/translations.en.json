@@ -12,12 +12,12 @@
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}) and [Chromium-based browsers]({{chrome}}).",
-    "infoSection": "# By students, for students. Free & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+    "infoSection": "# By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden .\nFor two years now we are developing together with you and the FSRs the perfect product for your everyday student life..\n\nFind out more about the project on this site and install TUfast now!"
   },
   "projectAndVision": {
     "h": "Projekt and Vision",
     "sections": [
-      "# Vision\nTUfast is the #1 productivity tool for students at TU Dresden. For two years now we are developing together with you and the FSRs the perfect product for your everyday student life. \nWe are aiming at 5000 Users at TU Dresden and releasing the tool for one more school in saxony.",
+      "# Vision\nTUfast is the #1 productivity tool for students at TU Dresden. For two years now we are developing together with you and the FSRs the perfect product for your everyday student life. We are aiming at 5000 Users at TU Dresden and releasing the tool for one more school in saxony.",
       "# Functions\nTUfast provides the following functionality: auto-login in online-platforms of TU Dresden, quick-accesses and hotkeys, overview on all OPAL-courses as well as improvements for OPAL itself. Find out more after installing TUfast!",
       "# Project information\nTUfast was released at 05.2020, is [open-source](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students. As of 01.01.2022 TUfast has about 2500 Users on all plattforms. Currently, [Firefox](https://addons.mozilla.org/de/firefox/addon/tufast/) and [chromium-based](https://chrome.google.com/webstore/detail/tufast-tu-dresden/aheogihliekaafikeepfjngfegbnimbk) browsers are supported. A project roadmap can be found in GitHub.\n\nThe project is supported by\n\\- Frau Jantos (eLearning-Koordinatorin) / Herr Jantos (SELMA-PM)\n\\- The following FSRs:\n***",
       "# Is TUfast secure?\nToDo: Überprüfung Informationssicherheit",
