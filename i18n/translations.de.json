@@ -5,9 +5,10 @@
     "en": "🇬🇧 Englisch"
   },
   "nav": {
-    "projectAndVision": "Projekt und Vision"
+    "projectAndVision": "Das Projekt"
   },
   "index": {
+    "mainHeadingTUfast": "TUfast",
     "mainHeading": "Das Produktivitätstool.",
     "subHeading": "Für TU Dresden Studierende (und Mitarbeiter).",
     "installPrompt": "Jetzt laden für",
@@ -15,7 +16,7 @@
     "infoSection": "# Von Studierenden, für Studierende. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
   },
   "projectAndVision": {
-    "h": "Projekt und Vision",
+    "h": "Das Projekt",
     "sections": [
       "# Vision\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende. Seit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nUnser Ziel ist es, 5000 Nutzer an der TU Dresden zu gewinnen und die Erweiterung für weitere Hochschulen in Sachsen verfügbar zu machen.",
       "# Funktionen\nTUfast stellt derzeit folgende Funktionen zur Verfügung: automatisches Anmelden in die Online-Portale der TU Dresden, Schnellzugriffe und Hotkeys auf die Online-Portale, Übersicht über alle OPAL-Kurse und Verbesserungen in OPAL selbst. Mehr kannst du in TUfast entdecken ;)\n\nWir (die Entwickler) nutzen das Projekt auch, um uns selbst in Softwareentwicklung und Produktmanagement weiterzuentwickeln.",
