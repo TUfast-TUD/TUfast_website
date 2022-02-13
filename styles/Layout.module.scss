@@ -32,6 +32,11 @@
 
     .languageSelector {
         padding: 0 20px;
-        margin-left: auto;
     }
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }

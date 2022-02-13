@@ -6,6 +6,8 @@ import { DownOutlined } from '@ant-design/icons';
 import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n'
 import Rocket from './Rocket'
 import styles from '../styles/Layout.module.scss'
+import { FaGithub, FaEnvelope } from 'react-icons/fa'
+import { SiMatrix } from 'react-icons/si'
 
 const { Header, Content, Footer } = Layout
 
@@ -20,13 +22,16 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
     const [query] = useLanguageQuery();
 
     const linksObj = [
-        { text: 'Github', href: 'https://github.com/TUfast-TUD' },
-        { text: 'frage@tu-fast.de', href: 'mailto:frage@tu-fast.de' },
-        { text: 'matrix', href: 'https://matrix.to/#/#tu-fast:tu-dresden.de' },
-        { text: 'Datenschutz', href: '/datenschutz' },
+        { text: 'Github', href: 'https://github.com/TUfast-TUD', icon: FaGithub },
+        { text: 'frage@tu-fast.de', href: 'mailto:frage@tu-fast.de', icon: FaEnvelope },
+        { text: 'Matrix', href: 'https://matrix.to/#/#tu-fast:tu-dresden.de', icon: SiMatrix },
+        { text: 'Datenschutz', href: '/datenschutz', icon: () => <></> },
     ]
 
-    const links = linksObj.map((link) => <Link href={link.href} key={link.text}>{link.text}</Link>)
+    const links = linksObj.map(link => <div className={styles.links} key={link.text}>
+        <link.icon/>
+        <Link href={link.href}>{link.text}</Link>
+    </div>)
 
     const languageSelector = (
         <Menu>
@@ -48,10 +53,10 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         <Layout className={styles.layout}>
             <Header className={styles.navbar}>
                 <Link href={'/'} passHref>
-                    <a className={styles.logo}><Rocket/> TUfast</a>
+                    <a className={styles.logo}><Rocket style={{verticalAlign: 'baseline', marginBottom: -3}}/> TUfast</a>
                 </Link>
 
-                <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []} style={{fontSize: '1rem'}}>
+                <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []} style={{fontSize: '1rem', flex: 'auto'}}>
                     <Menu.Item key={'project'}>
                         <Link href={'/#project'}>{t('nav.projectAndVision')}</Link>
                     </Menu.Item>
@@ -72,7 +77,6 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
                 <Dropdown overlay={languageSelector} trigger={['click']} className={styles.languageSelector}>
                     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>{t('language.selector')} <DownOutlined/></a>
                 </Dropdown>
-
             </Header>
             <Content className={styles.mainContainer}>
                 { children }
