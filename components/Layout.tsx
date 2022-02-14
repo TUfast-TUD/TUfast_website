@@ -25,7 +25,7 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         { text: 'Github', href: 'https://github.com/TUfast-TUD', icon: FaGithub },
         { text: 'frage@tu-fast.de', href: 'mailto:frage@tu-fast.de', icon: FaEnvelope },
         { text: 'Matrix', href: 'https://matrix.to/#/#tu-fast:tu-dresden.de', icon: SiMatrix },
-        { text: 'Datenschutz', href: '/datenschutz', icon: () => <></> },
+        { text: 'Datenschutz', href: 'https://docs.google.com/document/d/1m3LCzlRMlEUR_TbMgP7Ha7MA7jN9mJ6gfyRhCRfUxuM/edit?usp=sharing', icon: () => <></> },
     ]
 
     const links = linksObj.map(link => <div className={styles.links} key={link.text}>
