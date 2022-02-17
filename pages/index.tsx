@@ -91,7 +91,7 @@ const Home: NextPage = () => {
           <h1 className={styles.brandH}><img src="favicon.png" className={styles.rocketLogo} alt="TUfast"/>{t('index.mainHeadingTUfast')}</h1>
           <h1>{t('index.mainHeading')}</h1>
           <h2>{t('index.subHeading')}</h2>
-          <h2 style={{marginBottom: 0}}>{t('index.installPrompt')} <a href={browser.url} target={"_blank"}>{browser.name}</a> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>
+          <h2 style={{marginBottom: 0}}>{t('index.installPrompt')} <a href={browser.url} target={'_blank'} rel="noreferrer">{browser.name}</a> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>
 
           {/* <ReactMarkdown className={styles.availableFor} children={t('index.availableFor', {firefox: browserList.firefox.url, chrome: browserList.chrome.url})} components={{
             a: ({href, children}) => <Link href={href || ''}>{children[0] || ''}</Link>
