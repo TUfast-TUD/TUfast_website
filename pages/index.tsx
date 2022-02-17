@@ -102,7 +102,7 @@ const Home: NextPage = () => {
           <ReactMarkdown components={{h1: 'h3'}} children={t('index.infoSection')}/>
         </div>
 
-        <BsChevronCompactDown className={styles.scrollIndicator}/>
+        <Link href="#project"><BsChevronCompactDown className={styles.scrollIndicator}/></Link>
       </div>
 
       <div className={styles.section} id="project">

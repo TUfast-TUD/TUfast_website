@@ -33,6 +33,7 @@
     width: 4rem;
     height: 4rem;
     animation: MoveUpDown 1.5s ease-in-out infinite;
+    cursor: pointer;
 }
 
 @keyframes MoveUpDown {
