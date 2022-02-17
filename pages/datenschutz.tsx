@@ -59,12 +59,12 @@ const Datenschutz = () => {
             <h3>Wie kann das alles nachgeprüft werden? 🔍</h3>
             <p>
                 Der Quellcode dieser Erweiterung ist öffentlich, das heißt jeder kann den Code einsehen:<br />
-                <a href="https://github.com/TUfast-TUD/TUfast_TUD" target={"_blank"}>github.com/TUfast-TUD/TUfast_TUD</a>
+                <a href="https://github.com/TUfast-TUD/TUfast_TUD" target={'_blank'} rel="noreferrer">github.com/TUfast-TUD/TUfast_TUD</a>
             </p>
 
             <h3>Kontakt 📧</h3>
             Oliver Hausdörfer<br />
-            <a href="mailto:frage@tu-fast.de" target={"_blank"}>frage@tu-fast.de</a><br />
+            <a href="mailto:frage@tu-fast.de" target={'_blank'} rel="noreferrer">frage@tu-fast.de</a><br />
             <Link href="https://tu-fast.de">tu-fast.de</Link>
         </Layout >
     )

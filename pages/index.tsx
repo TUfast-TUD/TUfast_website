@@ -102,7 +102,7 @@ const Home: NextPage = () => {
           <ReactMarkdown components={{h1: 'h3'}} children={t('index.infoSection')}/>
         </div>
 
-        <Link href="#project"><BsChevronCompactDown className={styles.scrollIndicator}/></Link>
+        <Link href="#project" passHref><BsChevronCompactDown className={styles.scrollIndicator}/></Link>
       </div>
 
       <div className={styles.section} id="project">
@@ -111,7 +111,10 @@ const Home: NextPage = () => {
         {(t('projectAndVision.sections') as Array<any>).map((section, i) =>
           <ReactMarkdown key={i} children={section} components={{
             h1: 'h3',
-            a: ({href, children}) => <Link href={href || ''}>{children[0] || ''}</Link>,
+            a: ({href, children}) => {
+              if (href && ['#', '/'].includes(href.charAt(0))) return <Link href={href || ''}>{children[0] || ''}</Link>
+              else return <a href={href || ''} target={'_blank'} rel="noreferrer">{children[0] || ''}</a>
+            },
             // a little hack to insert the FsrIcons component by replacing <hr/> (*** in markdown)
             hr: FsrIcons
           }}/>
