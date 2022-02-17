@@ -91,7 +91,7 @@ const Home: NextPage = () => {
           <h1 style={{textTransform: 'none', fontWeight: 'bolder', fontSize: '70px', display: 'inline', position: 'relative', top: '-7px', left:'-5px'}}><img src="favicon.png" style={{ height: '100px', position: 'relative', top: '-5px'}} alt="TUfast"/>{t('index.mainHeadingTUfast')}</h1>
           <h1>{t('index.mainHeading')}</h1>
           <h2>{t('index.subHeading')}</h2>
-          <h2 style={{marginBottom: 0}}>{t('index.installPrompt')} <Link href={browser.url}>{browser.name}</Link> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>
+          <h2 style={{marginBottom: 0}}>{t('index.installPrompt')} <a href={browser.url} target={"_blank"}>{browser.name}</a> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>
 
           {/* <ReactMarkdown className={styles.availableFor} children={t('index.availableFor', {firefox: browserList.firefox.url, chrome: browserList.chrome.url})} components={{
             a: ({href, children}) => <Link href={href || ''}>{children[0] || ''}</Link>
