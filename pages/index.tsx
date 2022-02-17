@@ -88,7 +88,7 @@ const Home: NextPage = () => {
     <Layout>
       <div className={styles.mainWrapper}>
         <div className={styles.section}>
-          <h1 style={{textTransform: 'none', fontWeight: 'bolder', fontSize: '70px', display: 'inline', position: 'relative', top: '-7px', left:'-5px'}}><img src="favicon.png" style={{ height: '100px', position: 'relative', top: '-5px'}} alt="TUfast"/>{t('index.mainHeadingTUfast')}</h1>
+          <h1 className={styles.brandH}><img src="favicon.png" className={styles.rocketLogo} alt="TUfast"/>{t('index.mainHeadingTUfast')}</h1>
           <h1>{t('index.mainHeading')}</h1>
           <h2>{t('index.subHeading')}</h2>
           <h2 style={{marginBottom: 0}}>{t('index.installPrompt')} <a href={browser.url} target={"_blank"}>{browser.name}</a> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>

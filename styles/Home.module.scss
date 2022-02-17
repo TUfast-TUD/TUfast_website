@@ -3,14 +3,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     min-height: calc(100vh - 164px); // 2*50px padding + 64 navbar
     margin-bottom: 100px;
     padding: 0 min(20vw - 100px, 100px); // 2*50px padding
     gap: min(20vh - 200px, 70px); // 2*50 padding + 64 navbar + 36 margin offset
-
     .availableFor {
         font-size: 14px;
+    }
+    .brandH {
+        text-transform: none;
+        font-weight: bolder;
+        font-size: 4.375rem;
+        display: inline;
+        position: relative;
+        top: -7px;
+        left: -5px;
+        .rocketLogo {
+            height: 1.3em;
+            position: relative;
+            top: -5px;
+        }
     }
 }
 
@@ -20,12 +32,12 @@
     bottom: -50px;
     width: 4rem;
     height: 4rem;
-
     animation: MoveUpDown 1.5s ease-in-out infinite;
 }
 
 @keyframes MoveUpDown {
-    0%, 100% {
+    0%,
+    100% {
         transform: translateY(4px);
     }
     50% {
@@ -35,7 +47,6 @@
 
 .section {
     font-size: 18px;
-
     h3 {
         margin-top: 36px;
     }
@@ -53,11 +64,9 @@
     flex-wrap: wrap;
     gap: 28px;
     margin-bottom: 14px;
-
     a {
         height: 60px;
     }
-
     img {
         height: 100%;
     }
