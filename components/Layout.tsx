@@ -30,7 +30,7 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
 
     const links = linksObj.map(link => <div className={styles.links} key={link.text}>
         <link.icon/>
-        <Link href={link.href}>{link.text}</Link>
+        <a href={link.href} target={"_blank"}>{link.text}</a>
     </div>)
 
     const languageSelector = (
