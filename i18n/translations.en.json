@@ -13,19 +13,19 @@
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}), [Chrome]({{chrome}}) and [Edge]({{chrome}}) browsers",
-    "infoSection": "# By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden .\nFor two years now we are developing together with you and the FSRs the perfect product for your everyday student life.\n\nFind out more about the project on this site and install TUfast now!"
+    "infoSection": "# By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden.\nFor two years, we have been working with you and the FSRs to develop the perfect product to make your everyday study life easier.\n\nFind out more about the project on this site and install TUfast now!"
   },
   "projectAndVision": {
     "h": "The Project",
     "sections": [
-      "TUfast was released in 05.2020, is [open-source](https://github.com/TUfast-TUD/TUfast_TUD),  developed by students and has 2500+ users as of 01.01.2022. For two years now we are developing together with you and the FSRs the perfect product for your everyday student life.",
-      "We aim at providing TUfast for 5000 students and employees at TU Dresden, as well as for at least one more school in saxony.",
-      "# What does TUfast do?\nTUfast provides a bunch of functions to speed up your everyday student life. Among them are:",
-      "- AutoLogin in all online-platforms of TU Dresden \n - Quick-accesses and hotkeys to many platform \n - Supports SELMA, OPAL, OWA und viele mehr \n - Overview of all your OPAL-courses as well as improvements for OPAL itself. \n - ... and many more you will find when using TUfast ;)",
+      "TUfast was released in May 2020, is [open-source](https://github.com/TUfast-TUD/TUfast_TUD),  developed by students and has 2500+ users as of 01.01.2022. For two years, we have been working with you and the FSRs to develop the perfect product to make your everyday student life easier.",
+      "We currently aim to provide TUfast for 5000 users at TU Dresden and to make it available for an additional university in Saxony.",
+      "# What does TUfast do?\nTUfast provides a number of features to make your everyday studies easier, such as:",
+      "- AutoLogin to all TU Dresden online portals\n - Quick access and hotkeys for essential online portals\n - Supports SELMA, OPAL, jExam and many more\n - Overview of all your OPAL courses as well as improvements for OPAL itself.\n - ... and many more that you can discover in TUfast ;)",
       "TUfast has been reported to **save 2000 Clicks and 90 minutes per semester!**",
-      "# Is TUfast secure?\n The TUfast-Extension saves user data exclusively locally on your computer. If you uninstall the extension all data will be removed. As we care about user data and privacy TUfast is currently scrutineered by the Informationssicherheit of TU Dresden. Here you can read the full [privacy notice](/datenschutz) on TUfast.",
-      "# Further information\n The project is currently been supported by:",
-      "- Mrs. Jantos (coordinator eLearning) and Mr Jantos (product manager of SELMA) \n - The following FSRs:\n***"
+      "# Is TUfast secure?\n The TUfast extension stores user data only locally on your PC. If you uninstall the extension, all data will be deleted as well. Because security is important to us, TUfast is also currently being audited by the department of IT security of TU Dresden. Here you can find our [privacy policy](/datenschutz).",
+      "# Further information\n The project is being supported by:",
+      "- Mrs. Jantos (coordinator eLearning) and Mr. Jantos (product manager of SELMA)\n - The following FSRs:\n***"
     ]
   }
 }
