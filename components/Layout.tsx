@@ -3,11 +3,12 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Divider, Layout, Space, Menu, Dropdown } from 'antd'
 import { DownOutlined } from '@ant-design/icons';
-import { useTranslation, useLanguageQuery, LanguageSwitcher } from 'next-export-i18n'
+import { useTranslation, useSelectedLanguage, LanguageSwitcher } from 'next-export-i18n'
 import Rocket from './Rocket'
 import styles from '../styles/Layout.module.scss'
 import { FaGithub, FaEnvelope } from 'react-icons/fa'
 import { SiMatrix } from 'react-icons/si'
+import { useEffect } from 'react';
 
 const { Header, Content, Footer } = Layout
 
@@ -18,8 +19,13 @@ interface LayoutProps {
 
 const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
 
-    const { t } = useTranslation();
-    const [query] = useLanguageQuery();
+    const { t } = useTranslation()
+
+    const { lang } = useSelectedLanguage()
+
+    useEffect(() => {
+        document.documentElement.lang = lang
+    }, [lang])
 
     const linksObj = [
         { text: 'Github', href: 'https://github.com/TUfast-TUD', icon: FaGithub },
@@ -30,7 +36,7 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
 
     const links = linksObj.map(link => <div className={styles.links} key={link.text}>
         <link.icon/>
-        {['#', '/'].includes(link.href.charAt(0)) ? <Link href={link.href}>{link.text}</Link> : <a href={link.href} target={'_blank'} rel="noreferrer">{link.text}</a>}        
+        {['#', '/'].includes(link.href.charAt(0)) ? <Link href={link.href}>{link.text}</Link> : <a href={link.href} target={'_blank'} rel="noreferrer">{link.text}</a>}
     </div>)
 
     const languageSelector = (
