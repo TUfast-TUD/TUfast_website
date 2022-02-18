@@ -87,7 +87,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <div className={styles.mainWrapper}>
-        <div className={styles.section}>
+        <div>
           <h1 className={styles.brandH}><img src="favicon.png" className={styles.rocketLogo} alt="TUfast"/>{t('index.mainHeadingTUfast')}</h1>
           <h1>{t('index.mainHeading')}</h1>
           <h2>{t('index.subHeading')}</h2>
@@ -98,14 +98,14 @@ const Home: NextPage = () => {
           }}/>
         </div>
 
-        <div className={styles.section}>
+        <div>
           <ReactMarkdown components={{h1: 'h3'}} children={t('index.infoSection')}/>
         </div>
 
         <Link href="#project" passHref><BsChevronCompactDown className={styles.scrollIndicator}/></Link>
       </div>
 
-      <div className={styles.section} id="project">
+      <div id="project">
         <h2>{t('projectAndVision.h')}</h2>
 
         {(t('projectAndVision.sections') as Array<any>).map((section, i) =>
