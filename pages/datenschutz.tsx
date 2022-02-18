@@ -4,10 +4,13 @@ import Layout from '../components/Layout'
 const Datenschutz = () => {
     return (
         <Layout site="Datenschutz" siteKey="datenschutz">
-            <h1>Datenschutzerklärung für TUfast</h1>
+            <h2>Datenschutzerklärung für die TUfast TU Dresden Browsererweiterung</h2>
             <p>
-                Die Sicherheit der Erweiterung und der Nutzerdaten hat für uns höchste Priorität.
-                Wir sind verpflichtet, diese Datenschutzerklärung zu veröffentlichen.
+                <b>Die Sicherheit der Erweiterung und der Nutzerdaten hat für uns höchste Priorität.
+                Wir sind verpflichtet, eine Datenschutzerklärung zu veröffentlichen.</b>
+            </p>
+            <p>
+                <b>This text is currently available in german language only. Please contact us for further requrests.</b>
             </p>
             <hr />
 
@@ -56,15 +59,16 @@ const Datenschutz = () => {
                 Das sind Geräte, auf denen potentiell bösartige Angreifer keinen längeren, unbeaufsichtigten Zugriff haben.
             </p>
 
-            <h3>Wie kann das alles nachgeprüft werden? 🔍</h3>
+            <h3>🔍 Wie kann das alles nachgeprüft werden?</h3>
             <p>
                 Der Quellcode dieser Erweiterung ist öffentlich, das heißt jeder kann den Code einsehen:<br />
                 <a href="https://github.com/TUfast-TUD/TUfast_TUD" target={'_blank'} rel="noreferrer">github.com/TUfast-TUD/TUfast_TUD</a>
             </p>
 
-            <h3>Kontakt 📧</h3>
-            Oliver Hausdörfer<br />
-            <a href="mailto:frage@tu-fast.de" target={'_blank'} rel="noreferrer">frage@tu-fast.de</a><br />
+            <h3>📧 Kontakt</h3>
+            TUfast-Team<br />
+            Ansprechpartner: Oliver Hausdörfer<br/>
+            <a href="mailto:frage@tu-fast.de" target={'_blank'} rel="noreferrer">frage@tu-fast.de</a><br/>
             <Link href="https://tu-fast.de">tu-fast.de</Link>
         </Layout >
     )
