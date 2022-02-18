@@ -78,7 +78,7 @@ const Home: NextPage = () => {
   const FsrIcons = () =>
     <div className={styles.fsrIcons}>
       {fsr.map((val, i) =>
-        <a href={val.url} title={val.name} key={i}>
+        <a  target={'_blank'} rel="noreferrer" href={val.url} title={val.name} key={i}>
           <img src={val.logo} alt={val.name}/>
         </a>
       )}
