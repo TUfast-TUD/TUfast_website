@@ -74,6 +74,8 @@
     flex-wrap: wrap;
     gap: 28px;
     margin-bottom: 14px;
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center; /* center items horizontaly, in this case */
     a {
         height: 60px;
     }
