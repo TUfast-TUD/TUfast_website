@@ -7,12 +7,37 @@
       "role": "Team-Lead",
       "github": "https://github.com/OliEfr",
       "studies": "BSc Mechanical Engineering at TU Dresden | MSc Robotics at TUM",
-      "occupancy_in_tufast": "Project management; some coding"
+      "occupancy_in_tufast": "Project management; some development"
+    },
+     {
+      "name": "Lucas Fugman",
+      "role": "Website-Lead",
+      "github": "https://github.com/FugiMuffi",
+      "studies": "XXX Computer Science at TU Dresden",
+      "occupancy_in_tufast": "Development; Backend expert; Website-Lead"
+    },
+     {
+      "name": "Lennart Guderian",
+      "image": "XXX",
+      "role": "Co-Team-Lead",
+      "github": "https://github.com/Noxdor",
+      "studies": "Dipl. Mechatronics at TU Dresden",
+      "occupancy_in_tufast": "Development; Front-end expert; Design-Lead"
+    },
+     {
+      "name": "Oliver Hausdörfer",
+      "role": "Extension-Lead",
+      "github": "https://github.com/C0ntroller",
+      "studies": "XXX Computer Science",
+      "occupancy_in_tufast": "Development; knows every line of Code in the project; web-extension expert"
     }
   ],
   "alumni": [
     {
       "name": "Jan Polzer",
       "image": "https://hausdoerfer.de/jpolzer.jpg"
+      "role": "Marketing-Lead",
+      "studies": "Medicine",
+      "occupancy_in_tufast:" "PR and marketing"
     }]
 }
