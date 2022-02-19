@@ -1,0 +1,18 @@
+{
+  "members": [
+    {
+      "name": "Oliver Hausdörfer",
+      "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
+      "alternative_image": "https://hausdoerfer.de/ohausdoerfer1.jpg",
+      "role": "Team-Lead",
+      "github": "https://github.com/OliEfr",
+      "studies": "BSc Mechanical Engineering at TU Dresden | MSc Robotics at TUM",
+      "occupancy_in_tufast": "Project management; some coding"
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Jan Polzer",
+      "image": "https://hausdoerfer.de/jpolzer.jpg"
+    }]
+}
