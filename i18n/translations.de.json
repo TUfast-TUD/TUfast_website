@@ -18,14 +18,15 @@
   "projectAndVision": {
     "h": "Das Projekt",
     "sections": [
-      "TUfast wurde im Mai 2020 veröffentlicht, wird von Studierenden entwickelt, ist [quelloffen](https://github.com/TUfast-TUD/TUfast_TUD) und hat Stand 01.01.2022 über 2500 Nutzer. Seit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.",
-      "Aktuelles Ziel ist es, TUfast für 5000 Nutzer an der TU Dresden anzubieten und für eine weitere Hochschule in Sachsen verfügbar zu machen.",
-      "# Was kann TUfast?\nTUfast stellt eine Reihe an Funktionen zur Verfügung, die den Studienalltag erleichtern. Dazu gehören:",
-      "- AutoLogin in alle Online-Portale der TU Dresden\n - Schnellzugriff und Hotkeys für wichtige Online-Portale\n - Unterstützt SELMA, OPAL, jExam und viele mehr\n - Übersicht über alle deine OPAL-Kurse sowie Verbesserungen für OPAL\n - ... viele weitere die du in TUfast entdecken kannst ;)",
-      "Mit TUfast sparst du so über **2000 Klicks und 90 Minuten pro Semester!**",
-      "# Ist TUfast sicher?\n Die TUfast-Erweiterung speichert Daten ausschließlich lokal auf deinem PC. Wenn du die Erweiterung löschst, werden auch alle Daten gelöscht. Weil uns Sicherheit wichtig ist, wird TUfast außerdem aktuell von der Informationssicherheit der TU Dresden überprüft. Hier findest du die [Datenschutzerklärung](/datenschutz).",
-      "# Weitere Informationen\n Das Projekt wird aktuell unterstützt von:",
-      "- Frau Jantos (eLearning-Koordinatorin) and Herr Jantos (SELMA-Produktmanager)\n - Die folgenden FSRs:\n***"
+      "TUfast wurde im Mai 2020 geboren und hatte hat am 01.01.2022 bereits über 2500 Nutzer. Das Projekt ist quelloffen auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden entwickelt. Seit zwei Jahren entwickeln wir das perfekte Tool, um euch den Studienalltag zu erleichtern!",
+      "# 🚀Was kann TUfast?\n Mit TUfast kannst du **2000 Klicks und 90 Minuten** pro Semester sparen!",
+      "Dafür stell TUfast eine Reihe an Funktionen zur Verfügung. Dazu gehören:",
+      "- AutoLogin in alle Online-Portale \n - Schnellzugriff und Hotkeys für viele Online-Portale\n - Unterstützt SELMA, OPAL, jEXam und Co. \n - Übersicht über alle OPAL-Kurse sowie Verbesserungen für OPAL\n - ... viele weitere kannst du in TUfast entdecken ;)",
+      "# 🔐Ist TUfast sicher?\n TUfast speichert nutzerbezogene Daten ausschließlich lokal auf deinem Gerät. Wenn du die Erweiterung löschst, werden auch alle Daten gelöscht. Außerdem wird TUfast aktuell von der Informationssicherheit der TU Dresden überprüft. Hier findest du die [Datenschutzerklärung](/datenschutz).",
+      "# 🔮Wie gehts weiter? \n Wir möchte TUfast für 5000+ Studierende an der TU Dresden verfügbar machen, sowie für eine weitere Hochschule in Sachsen bis zum Ende des Jahres.",
+      "Aktuell Suchen wir nach Funding und Inkubatoren für das Projekt.",
+      "# ❤️Projektunterstützer\n Das Projekt wird aktuell unterstützt von:",
+      "- Vielen netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer) \n - Frau Jantos, der eLearning-Koordinatorin der TU Dresden \n - Den folgenden FSRs:\n***"
     ]
   }
 }
