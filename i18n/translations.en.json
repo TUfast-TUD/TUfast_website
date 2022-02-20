@@ -13,21 +13,24 @@
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}), [Chrome]({{chrome}}) and [Edge]({{chrome}}) browsers",
-    "infoSection": "# By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden .\nFor two years now we are developing together with you and the FSRs the perfect product for your everyday student life.\n\nFind out more about the project on this site and install TUfast now!"
+    "infoSection": "# By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden.\nFor two years, we have been working with you and the FSRs to develop the perfect product to make your everyday study life easier.\n\nFind out more about the project on this site and install TUfast now!"
   },
   "projectAndVision": {
     "h": "The Project",
     "sections": [
-      "TUfast has come alive in 05.2020 and has more than 2500 users as of 01.01.2022. The project is open-source on [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students. For two years now, we have been creating the perfect tool for your everyday student life!",
-      "# 🚀What does TUfast do? \nWith TUfast you can **save up to 2000 Clicks and 90 minutes** of your time per Semester!",
-      "For this, TUfast provides functionalities to speed up your work with the online portals of TU Dresden, e.g. OPAL, Selma and Co.",
-      "Among them are:",
-      "- AutoLogin in all online-platforms \n - Quick-accesses to many platforms \n - Supports SELMA, OPAL, OWA and many more \n- Overview of all OPAL-courses as well as improvements for OPAL itself. \n - ... you can find many more when using TUfast ;)",
-      "# 🔐Is TUfast secure?\n TUfast saves user related data exclusively locally on your device. If you uninstall the extension all data will be removed. In addition, TUfast is currently scrutineered by the Informationssicherheit of TU Dresden. Here you can read the full [privacy notice](/datenschutz) on TUfast.",
-      "# 🔮Whats next?\n We want to make TUfast available for 5000+ students at TU Dresden and for at least one more university in saxony by end of this year.",
+      "TUfast has come alive in May 2020 and has more than 2500 users as of 01.01.2022. The project is open-source on [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students. For two years now, we have been creating the perfect tool for your everyday student life!",
+      "# 🚀 What does TUfast do?",
+      "With TUfast you can **save up to 2000 Clicks and 90 minutes** per semester!",
+      "To do this, TUfast provides a number of features to make your everyday studies easier, such as:",
+      "- AutoLogin to all online platforms\n - Quick-access and hotkeys for many platforms\n - Supports SELMA, OPAL, jExam and many more\n - Overview of all your OPAL-courses as well as improvements for OPAL itself.\n - ... and many more that you can discover in TUfast ;)",
+      "# 🔐 Is TUfast secure?",
+      "The TUfast extension stores user data only locally on your device. If you uninstall the extension, all data will be deleted as well. Additionally, TUfast is currently being audited by the department of IT security of TU Dresden. Here you can find our [privacy policy](/datenschutz).",
+      "# 🔮 Whats next?",
+      "We want to make TUfast available for 5000+ students at TU Dresden and for at least one more university in Saxony by end of this year.",
       "In addition, we are currently looking for funding and incubators.",
-      "# ❤️Supporters of the project\n The project is currently been supported by:",
-      "- Many very kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer) \n- Mrs. Jantos, the eLearning coordinator of TU Dresden \n - The following FSRs:\n***"
+      "# ❤️ Supporters",
+      "The project is being supported by:",
+      "- Many very kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Mrs. Jantos, the eLearning coordinator of TU Dresden\n - The following FSRs:\n ***"
     ]
   }
 }
