@@ -10,10 +10,11 @@
       "occupancy_in_tufast": "Project management; some development"
     },
      {
-      "name": "Fugi",
+      "name": "Lucas Fugmann",
+      "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
       "role": "Website-Lead",
       "github": "https://github.com/FugiMuffi",
-      "studies": "XXX Computer Science at TU Dresden",
+      "studies": "B.Sc. Computer Science at TU Dresden",
       "occupancy_in_tufast": "Development; Backend expert; Website-Lead"
     },
      {
@@ -35,7 +36,7 @@
   "alumni": [
     {
       "name": "Jan Polzer",
-      "image": "https://hausdoerfer.de/jpolzer.jpg"
+      "image": "https://hausdoerfer.de/jpolzer.jpg",
       "role": "Marketing-Lead",
       "studies": "Medical studies at TU Dresden and in Switzerland",
       "occupancy_in_tufast": "PR and marketing"
