@@ -59,7 +59,10 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         <Layout className={styles.layout}>
             <Header className={styles.navbar}>
                 <Link href={'/'} passHref>
-                    <a className={styles.logo}><Rocket style={{verticalAlign: 'baseline', marginBottom: -3}}/> TUfast</a>
+                    <a className={styles.logo}>
+                        <Rocket style={{verticalAlign: 'baseline', marginBottom: -3}}/>
+                        <span> TUfast</span>
+                    </a>
                 </Link>
 
                 <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []} style={{fontSize: '1rem', flex: 'auto'}} selectable={false}>
