@@ -1,17 +1,13 @@
 import { Card, Descriptions, Space } from 'antd'
 import { useSelectedLanguage, useTranslation } from 'next-export-i18n'
-import Image from 'next/image'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
 import Layout from '../components/Layout'
-import styles from '../ressources/styles/Team.module.scss'
-import members_de from '../ressources/other/teammembers_de.json'
-import members_en from '../ressources/other/teammembers_de.json'
+import styles from '../styles/Team.module.scss'
 
 interface Member {
     name: string;
     image?: string;
-    alternative_image?: string;
     role: string;
     github?: string;
     studies: string;
@@ -19,10 +15,7 @@ interface Member {
 }
 
 const Team = () => {
-    const { lang } = useSelectedLanguage()
     const { t } = useTranslation()
-
-    const members = lang === "de" ? members_de : members_en;
 
     const memberToCard = (member: Member) => {
         return <Card
@@ -59,11 +52,11 @@ const Team = () => {
             <h2>{t('team.h')}</h2>
             <h3>{t('team.active_devs')}</h3>
             <Space direction='horizontal' align='center' wrap className={styles.members}>
-                {members.members.map(memberToCard)}
+                {t('team.members.active').map(memberToCard)}
             </Space>
             <h3>{t('team.former_devs')}</h3>
             <Space direction='horizontal' align='center' wrap className={styles.members}>
-                {members.alumni.map(memberToCard)}
+                {t('team.members.former').map(memberToCard)}
             </Space>
         </Layout>
     )

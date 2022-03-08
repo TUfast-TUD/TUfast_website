@@ -5,7 +5,7 @@ import { Divider, Layout, Space, Menu, Dropdown } from 'antd'
 import { DownOutlined } from '@ant-design/icons';
 import { useTranslation, useSelectedLanguage, LanguageSwitcher } from 'next-export-i18n'
 import Rocket from './Rocket'
-import styles from '../ressources/styles/Layout.module.scss'
+import styles from '../styles/Layout.module.scss'
 import { FaGithub, FaEnvelope } from 'react-icons/fa'
 import { SiMatrix } from 'react-icons/si'
 import { useEffect } from 'react';
