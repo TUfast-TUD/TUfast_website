@@ -1,0 +1,43 @@
+{
+    "members": [{
+            "name": "Oliver Hausdörfer",
+            "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
+            "alternative_image": "https://hausdoerfer.de/ohausdoerfer1.jpg",
+            "role": "Teamleiter",
+            "github": "https://github.com/OliEfr",
+            "studies": "B.Sc. Maschinenbau an der TU Dresden | M.Sc. Robotik an der TUM",
+            "occupancy_in_tufast": "Projektmanagement; teils Entwicklung"
+        },
+        {
+            "name": "Lucas Fugmann",
+            "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
+            "role": "Website-Lead",
+            "github": "https://github.com/FugiMuffi",
+            "studies": "B.Sc. Informatik an der TU Dresden",
+            "occupancy_in_tufast": "Entwicklung; Backend-Experte; Hauptentwickler Website"
+        },
+        {
+            "name": "Lennart Guderian",
+            "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
+            "role": "Co-Teamleiter",
+            "github": "https://github.com/Noxdor",
+            "studies": "Dipl.-Ing. Mechatronik TU Dresden",
+            "occupancy_in_tufast": "Entwicklung; Front-end-Experte; Hauptentwickler Design"
+        },
+        {
+            "name": "Daniel Kluge",
+            "role": "Extension-Lead",
+            "image": "https://avatars.githubusercontent.com/u/43993811",
+            "github": "https://github.com/C0ntroller",
+            "studies": "Dipl.-Ing. Informationssystemtechnik",
+            "occupancy_in_tufast": "Entwicklung; kennt jede Zeile Code der Extension; Extension-Experte"
+        }
+    ],
+    "alumni": [{
+        "name": "Jan Polzer",
+        "image": "https://hausdoerfer.de/jpolzer.jpg",
+        "role": "Marketing-Lead",
+        "studies": "Medizin an der TU Dresden und in der Schweiz",
+        "occupancy_in_tufast": "PR und Vermarktung"
+    }]
+}

@@ -34,7 +34,17 @@
       "Contact us if you are interested!",
       "# ❤️ Supporters",
       "The project is being supported by:",
-      "- Many very kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Mrs. Jantos, the eLearning coordinator of TU Dresden\n - The following FSRs:\n ***"
+      "- Many very kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Ms. Jantos, the eLearning coordinator of TU Dresden\n - The following FSRs:\n ***"
     ]
+  },
+  "team": {
+    "h": "The Team",
+    "active_devs": "Active Teammembers",
+    "former_devs": "Former Teammembers",
+    "card": {
+      "role": "Role",
+      "studies": "Studies",
+      "activity": "Activity"
+    }
   }
 }

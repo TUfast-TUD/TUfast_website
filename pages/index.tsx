@@ -6,7 +6,7 @@ import ReactMarkdown from 'react-markdown'
 import { useEffect, useState } from 'react'
 import { BsChevronCompactDown } from 'react-icons/bs'
 import Layout from '../components/Layout'
-import styles from '../styles/Home.module.scss'
+import styles from '../ressources/styles/Home.module.scss'
 
 const Home: NextPage = () => {
 

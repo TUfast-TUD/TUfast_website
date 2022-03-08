@@ -36,5 +36,15 @@
       "Das Projekt wird aktuell unterstützt von:",
       "- Vielen netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Frau Jantos, der eLearning-Koordinatorin der TU Dresden\n - Den folgenden FSRs:\n ***"
     ]
+  },
+  "team": {
+    "h": "Das Team",
+    "active_devs": "Aktive Teammitglieder",
+    "former_devs": "Ehemalige Teammitglieder",
+    "card": {
+      "role": "Rolle",
+      "studies": "Studium",
+      "activity": "Tätigkeiten"
+    }
   }
 }
