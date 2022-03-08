@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
 import Layout from '../components/Layout'
+import styles from '../ressources/styles/Team.module.scss'
 import members_de from '../ressources/other/teammembers_de.json'
 import members_en from '../ressources/other/teammembers_de.json'
 
@@ -26,8 +27,8 @@ const Team = () => {
     const memberToCard = (member: Member) => {
         return <Card
             key={member.name}
-            style={{width: 400}}
-            cover={member.image ? <img src={member.image} alt={member.name} width='400' /> : null}
+            className={styles.card}
+            cover={member.image ? <img src={member.image} alt={member.name} className={styles.cardImg} /> : null}
             actions={[
                 member.github ? <Link key="github" href={member.github} passHref><FaGithub /></Link> : null
             ]}
@@ -57,11 +58,11 @@ const Team = () => {
         <Layout site="Team" siteKey="team">
             <h2>{t('team.h')}</h2>
             <h3>{t('team.active_devs')}</h3>
-            <Space direction='horizontal' align='center' wrap>
+            <Space direction='horizontal' align='center' wrap className={styles.members}>
                 {members.members.map(memberToCard)}
             </Space>
             <h3>{t('team.former_devs')}</h3>
-            <Space direction='horizontal' align='center' wrap>
+            <Space direction='horizontal' align='center' wrap className={styles.members}>
                 {members.alumni.map(memberToCard)}
             </Space>
         </Layout>
