@@ -71,11 +71,11 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
                     </Menu.Item>
                     {/* <Menu.Item key={'project'}>
                         <Link href={'/project'} passHref><a>Project and Vision</a></Link>
-                    </Menu.Item>
+                    </Menu.Item>*/
                     <Menu.Item key={'team'}>
                         <Link href={'/team'} passHref><a>Team</a></Link>
                     </Menu.Item>
-                    <Menu.Item key={'jobs'}>
+                    /*<Menu.Item key={'jobs'}>
                         <Link href={'/jobs'} passHref><a>Jobs</a></Link>
                     </Menu.Item>
                     <Menu.Item key={'blog'}>

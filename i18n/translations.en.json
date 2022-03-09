@@ -34,7 +34,62 @@
       "Contact us if you are interested!",
       "# ❤️ Supporters",
       "The project is being supported by:",
-      "- Many very kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Mrs. Jantos, the eLearning coordinator of TU Dresden\n - The following FSRs:\n ***"
+      "- Many very kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Ms. Jantos, the eLearning coordinator of TU Dresden\n - The following FSRs:\n ***"
     ]
+  },
+  "team": {
+    "h": "The Team",
+    "active_devs": "Active Teammembers",
+    "former_devs": "Former Teammembers",
+    "card": {
+      "role": "Role",
+      "studies": "Studies",
+      "activity": "Activity"
+    },
+    "members": {
+      "active": [
+        {
+          "name": "Oliver Hausdörfer",
+          "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
+          "role": "Team-Lead",
+          "github": "https://github.com/OliEfr",
+          "studies": "B.Sc. Mechanical Engineering at TU Dresden | M.Sc. Robotics at TUM",
+          "occupancy_in_tufast": "Project management; some development"
+        },
+        {
+          "name": "Lucas Fugmann",
+          "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
+          "role": "Website-Lead",
+          "github": "https://github.com/FugiMuffi",
+          "studies": "B.Sc. Computer Science at TU Dresden",
+          "occupancy_in_tufast": "Development; Backend expert; Website-Lead"
+        },
+        {
+          "name": "Lennart Guderian",
+          "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
+          "role": "Co-Team-Lead",
+          "github": "https://github.com/Noxdor",
+          "studies": "Dipl.-Ing. Mechatronics at TU Dresden",
+          "occupancy_in_tufast": "Development; Front-end expert; Design-Lead"
+        },
+        {
+          "name": "Daniel Kluge",
+          "role": "Extension-Lead",
+          "image": "https://avatars.githubusercontent.com/u/43993811",
+          "github": "https://github.com/C0ntroller",
+          "studies": "Dipl.-Ing. Information Systems Engineering",
+          "occupancy_in_tufast": "Development; knows every line of Code in the project; web-extension expert"
+        }
+      ],
+      "former": [
+        {
+          "name": "Jan Polzer",
+          "image": "https://hausdoerfer.de/jpolzer.jpg",
+          "role": "Marketing-Lead",
+          "studies": "Medical studies at TU Dresden and in Switzerland",
+          "occupancy_in_tufast": "PR and marketing"
+        }
+      ]
+    }
   }
 }
