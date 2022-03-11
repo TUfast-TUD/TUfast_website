@@ -13,26 +13,26 @@
     "subHeading": "Für TU Dresden Studierende (und Mitarbeiter).",
     "installPrompt": "Jetzt laden für",
     "availableFor": "Verfügbar für [Firefox]({{firefox}}), [Chrome]({{chrome}}) und [Edge]({{chrome}}) Browser",
-    "infoSection": "# Von Studierenden, für Studierende. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
   },
   "projectAndVision": {
-    "h": "Das Projekt",
-    "sections": [
+    "content": [
+      "## Das Projekt",
       "TUfast wurde im Mai 2020 geboren und hat Stand 01.01.2022 bereits über 2500 Nutzer. Das Projekt ist quelloffen auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden entwickelt. Seit zwei Jahren entwickeln wir das perfekte Tool, um euch den Studienalltag zu erleichtern!",
-      "# 🚀 Was kann TUfast?",
+      "### 🚀 Was kann TUfast?",
       "Mit TUfast kannst du **2000 Klicks und 90 Minuten** pro Semester sparen!",
       "Dafür stell TUfast eine Reihe an Funktionen zur Verfügung. Dazu gehören:",
       "- AutoLogin in alle Online-Portale\n - Schnellzugriff und Hotkeys für viele Online-Portale\n - Unterstützt SELMA, OPAL, jExam und Co.\n - Übersicht über alle OPAL-Kurse sowie Verbesserungen für OPAL\n - ... viele weitere kannst du in TUfast entdecken ;)",
-      "# 🔐 Ist TUfast sicher?",
+      "### 🔐 Ist TUfast sicher?",
       "TUfast speichert nutzerbezogene Daten ausschließlich lokal auf deinem Gerät. Wenn du die Erweiterung löschst, werden auch alle Daten gelöscht. Außerdem wird TUfast aktuell von der Informationssicherheit der TU Dresden überprüft. Hier findest du die [Datenschutzerklärung](/datenschutz).",
-      "# 🔮 Wie gehts weiter?",
+      "### 🔮 Wie gehts weiter?",
       "Wir möchte TUfast für 5000+ Studierende an der TU Dresden verfügbar machen, sowie für eine weitere Hochschule in Sachsen bis zum Ende des Jahres.",
       "Aktuell suchen wir nach Funding und Inkubatoren für das Projekt.",
-      "# 🔼 Wie kann ich beitreten?",
+      "### 🔼 Wie kann ich beitreten?",
       "Wir suchen nach motivierten Studierenden, die Verantwortung für einen Teil des Projektes übernehmen können. Es gibt viele Ideen, die realisiert werden können - von Front-End Entwicklung, über MacOS/Safari Integration hin zu Produkt Telemetry im Backend. Dabei ist es gut, wenn du schon erste Erfahrungen in der Webentwicklung hast.",
       "Als Plus: Teilhabe im TUfast-Projekt poliert dein GitHub-Repository auf und zeigt ein cooles Projekt, an dem du gearbeitet hast ;)",
       "Kontaktiere uns bei Interesse!",
-      "# ❤️ Projektunterstützer",
+      "### ❤️ Projektunterstützer",
       "Das Projekt wird aktuell unterstützt von:",
       "- Vielen netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n - Frau Jantos, der eLearning-Koordinatorin der TU Dresden\n - Den folgenden FSRs:\n ***"
     ]

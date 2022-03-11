@@ -1,16 +1,10 @@
-import Link from 'next/link'
-import ReactMarkdown from 'react-markdown'
 import Layout from '../components/Layout'
+import Markdown from '../components/Markdown'
 
 const Datenschutz = () => {
   return (
     <Layout site="Datenschutz" siteKey="datenschutz">
-      <ReactMarkdown children={content} components={{
-        a: ({href, children}) => {
-          if (href && ['#', '/'].includes(href.charAt(0))) return <Link href={href || ''}>{children[0] || ''}</Link>
-          else return <a href={href || ''} target={'_blank'} rel="noreferrer">{children[0] || ''}</a>
-        }
-      }}/>
+      <Markdown content={content} />
     </Layout >
   )
 }

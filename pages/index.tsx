@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
 import { browserName } from 'react-device-detect'
-import { useTranslation, useLanguageQuery } from 'next-export-i18n'
-import ReactMarkdown from 'react-markdown'
+import { useTranslation } from 'next-export-i18n'
 import { useEffect, useState } from 'react'
 import { BsChevronCompactDown } from 'react-icons/bs'
 import Layout from '../components/Layout'
 import styles from '../styles/Home.module.scss'
+import Markdown from '../components/Markdown'
 
 const Home: NextPage = () => {
 
@@ -93,28 +93,22 @@ const Home: NextPage = () => {
           <h2>{t('index.subHeading')}</h2>
           <h2 style={{marginBottom: 0}}>{t('index.installPrompt')} <a href={browser.url} target={'_blank'} rel="noreferrer">{browser.name}</a> <img src={browser.icon} alt="" loading="lazy" className={styles.browserIcon}/></h2>
 
-          <ReactMarkdown className={styles.availableFor} children={t('index.availableFor', {firefox: browserList.firefox.url, chrome: browserList.chrome.url})} components={{
-            a: ({href, children}) => <Link href={href || ''}>{children[0] || ''}</Link>
-          }}/>
+          <Markdown
+            className={styles.availableFor}
+            content={t('index.availableFor', {firefox: browserList.firefox.url, chrome: browserList.chrome.url})}
+          />
         </div>
 
         <div>
-          <ReactMarkdown components={{h1: 'h3'}} children={t('index.infoSection')}/>
+          <Markdown content={t('index.infoSection')}/>
         </div>
 
         <Link href="#project" passHref><BsChevronCompactDown className={styles.scrollIndicator}/></Link>
       </div>
 
       <div id="project">
-        <h2>{t('projectAndVision.h')}</h2>
-
-        {(t('projectAndVision.sections') as Array<any>).map((section, i) =>
-          <ReactMarkdown key={i} children={section} components={{
-            h1: 'h3',
-            a: ({href, children}) => {
-              if (href && ['#', '/'].includes(href.charAt(0))) return <Link href={href || ''}>{children[0] || ''}</Link>
-              else return <a href={href || ''} target={'_blank'} rel="noreferrer">{children[0] || ''}</a>
-            },
+        {(t('projectAndVision.content') as Array<string>).map((section, i) =>
+          <Markdown key={i} content={section} components={{
             // a little hack to insert the FsrIcons component by replacing <hr/> (*** in markdown)
             hr: FsrIcons
           }}/>
