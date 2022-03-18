@@ -97,7 +97,7 @@
       "### Contact",
       "Write us an e-mail at [frage@tu-fast.de](mailto:frage@tu-fast.de) that answers the following questions:\n 1. What will be your personal ideals when developing software for TUfast? 2. Which part/topic can you best contribute at and want to work on? We will answer you mail within 5 days.",
       "### Do I need to be able to write software to participate?",
-      "If you can not code yet, but are interested in the project, you can still join. We have many tasks that would be suitable to get into web development. Beyond that, we are also looking for students interested in project management, product communication and marketing."
+      "If you can not code yet, but are interested in the project, you can still join. We have many tasks that would be suitable to get into web development. Beyond that, we are also looking for students interested in project management, product communication and marketing.",
       "If you want to take responsibility for a part of the project, you should already have experience in web development, git and writing software in a team. Experience from personal projects can also be sufficient.",
       "### Open positions"
     ],
@@ -120,7 +120,7 @@
         "title": "TUfast for HTW / other Institutes of Higher Education",
         "tags": [
           "Development",
-          "Product management"
+          "Product management",
           "Project management"
         ],
         "content": "As TUfast is awesome, many students of the HTW requested to make TUfast available for them! This would be a huge step for us, and requires thinking about software architecture and new implementation."
