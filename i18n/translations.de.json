@@ -28,10 +28,6 @@
       "### 🔮 Wie gehts weiter?",
       "Wir möchte TUfast für 5000+ Studierende an der TU Dresden verfügbar machen, sowie für eine weitere Hochschule in Sachsen bis zum Ende des Jahres.",
       "Aktuell suchen wir nach Funding und Inkubatoren für das Projekt.",
-      "### 🔼 Wie kann ich beitreten?",
-      "Wir suchen nach motivierten Studierenden, die Verantwortung für einen Teil des Projektes übernehmen können. Es gibt viele Ideen, die realisiert werden können - von Front-End Entwicklung, über MacOS/Safari Integration hin zu Produkt Telemetry im Backend. Dabei ist es gut, wenn du schon erste Erfahrungen in der Webentwicklung hast.",
-      "Als Plus: Teilhabe im TUfast-Projekt poliert dein GitHub-Repository auf und zeigt ein cooles Projekt, an dem du gearbeitet hast ;)",
-      "Kontaktiere uns bei Interesse!",
       "### ❤️ Projektunterstützer",
       "Das Projekt wird aktuell unterstützt von:",
       " - Frau Jantos, der eLearning-Koordinatorin der TU Dresden\n - Dem [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) des Stifterverbandes\n - Netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Den folgenden FSRs:\n ***"
@@ -42,7 +38,7 @@
     "active_devs": "Aktive Teammitglieder",
     "former_devs": "Ehemalige Teammitglieder",
     "card": {
-      "role": "Rolle",
+      "role": "Position",
       "studies": "Studium",
       "activity": "Tätigkeiten"
     },
@@ -51,45 +47,109 @@
         {
           "name": "Oliver Hausdörfer",
           "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
-          "role": "Teamleiter",
+          "role": "Teamleitung",
           "github": "https://github.com/OliEfr",
-          "studies": "B.Sc. Maschinenbau an der TU Dresden | M.Sc. Robotik an der TUM",
-          "occupancy_in_tufast": "Projektmanagement; teils Entwicklung"
+          "studies": "M.Sc. Robotik, TU München",
+          "occupancy_in_tufast": "Projektmanagement"
         },
         {
           "name": "Lucas Fugmann",
           "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
-          "role": "Website-Lead",
+          "role": "Leitung Website",
           "github": "https://github.com/FugiMuffi",
-          "studies": "B.Sc. Informatik an der TU Dresden",
-          "occupancy_in_tufast": "Entwicklung; Backend-Experte; Hauptentwickler Website"
+          "studies": "B.Sc. Informatik, TU Dresden",
+          "occupancy_in_tufast": "Entwicklung Website, Backend"
         },
         {
           "name": "Lennart Guderian",
           "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
-          "role": "Co-Teamleiter",
+          "role": "Co-Teamleitung",
           "github": "https://github.com/Noxdor",
-          "studies": "Dipl.-Ing. Mechatronik TU Dresden",
-          "occupancy_in_tufast": "Entwicklung; Front-end-Experte; Hauptentwickler Design"
+          "studies": "Dipl.-Ing. Mechatronik, TU Dresden",
+          "occupancy_in_tufast": "Design; Front-End; Entwicklung TUfast"
         },
         {
           "name": "Daniel Kluge",
-          "role": "Extension-Lead",
+          "role": "Leitung TUfast",
           "image": "https://avatars.githubusercontent.com/u/43993811",
           "github": "https://github.com/C0ntroller",
           "studies": "Dipl.-Ing. Informationssystemtechnik",
-          "occupancy_in_tufast": "Entwicklung; kennt jede Zeile Code der Extension; Extension-Experte"
+          "occupancy_in_tufast": "Entwicklung TUfast; Web-Extension Experte"
         }
       ],
       "former": [
         {
           "name": "Jan Polzer",
           "image": "https://hausdoerfer.de/jpolzer.jpg",
-          "role": "Marketing-Lead",
-          "studies": "Medizin an der TU Dresden und in der Schweiz",
-          "occupancy_in_tufast": "PR und Vermarktung"
+          "role": "Leitung Marketing",
+          "studies": "Medizin, TU Dresden",
+          "occupancy_in_tufast": "Marketing; Öffentlichkeitsarbeit"
         }
       ]
     }
+  },
+  "jobs": {
+    "content": [
+      "## Jobs",
+      "Das beste an TUfast? Software in der Praxis, ein Produkt mit über 2500 Nutzern und Coden für den guten Zweck (für deine Kommilitonen).",
+      "Wir können Studien- und Abschlussarbeiten über das Projekt betreuen. Wichtig ist, dass du parallel einen Betreuer an der Uni benötigst. Für mögliche Themen sei selbst kreativ oder lasse dich vom [Project-Board](https://github.com/orgs/TUfast-TUD/projects/1) inspirieren.",
+      "Nach einem Jahr Mitgliedschaft erhältst du ein Zertifikat für deine Beiträge und Engagement im Projekt.",
+      "### Kontakt aufnehmen",
+      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit:\n 1. Was werden deine drei wichtigsten Grundsätze bei der Softwareentwicklung für TUfast sein? 2. Welchen Teilbereich möchtest du übernehmen? Wir antworten dir innerhalb von 5 Tagen.",
+      "Wir selbst sind alle dabei, um zu Lernen. Deswegen sind uns deine Motivation und Grundsätze wichtiger als technische Vorkenntnisse.",
+      "### Muss ich programmieren können, um am Projekt teilzuhaben?",
+      "Wenn du Software entwickeln willst sind Vorerfahrungen mit Git(Hub) und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
+      "Wenn du nicht Coden kannst, aber am Projekt sehr interessiert bist, kannst du gerne mitmachen. Wir haben Stellen, die z.B. Projektmanagement, Marketing und Einwerben von Fördergeldern beinhalten.",
+      "### Offene Stellen"
+    ],
+    "listings": [
+      {
+        "title": "TUfast für Safari",
+        "tags": [
+          "Entwicklung"
+        ],
+        "content": "Wir bekommen viele Anfragen, dass TUfast doch bitte auch für Safari funktionieren soll. Du kennst dich mit Programmierung für Mac/Safari aus? Dann tu' deinen Kommilitonen etwas gutes und übernimm die Implementierung!"
+      },
+      {
+        "title": "TUfast für Mobil",
+        "tags": [
+          "Entwicklung"
+        ],
+        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends - deswegen möchten wir auch auf diese Umstellen. Das ermöglicht, TUfast für mobile Geräte verfügbar zu machen und viele neue Funktionen."
+      },
+      {
+        "title": "TUfast für HTW (und andere Hochschulen)",
+        "tags": [
+          "Entwicklung",
+          "Produktmanagement",
+          "Projektmanagement"
+        ],
+        "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir TUfast für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW."
+      },
+      {
+        "title": "TUfast Telemetry",
+        "tags": [
+          "Entwicklung",
+          "Produktmanagement"
+        ],
+        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen in Echtzeit auf unserer Website veröffentlicht werden. Die Nutzerdaten sollen öffentlich auf dieser Website für veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es."
+      },
+      {
+        "title": "Marketing",
+        "tags": [
+          "Projektmanagement",
+          "Marketing"
+        ],
+        "content": "Wir schätzen Marketing als elementaren Bestandteil unseres Projekts. Unser Ziel ist es, TUfast zu verbreiten, weshalb kreatives Marketing eine große Rolle spielt! Du willst Erfahrungen im Marketing und Produktkommunikation sammeln? Dann bist du hier genau richtig!"
+      },
+      {
+        "title": "Projektmanagement",
+        "tags": [
+          "Projektmanagement",
+          "Produktmanagement"
+        ],
+        "content": "Ein Team ist nur so gut, wie die gemeinsame Vision. Im Projektmanagement wird die Vision koordiniert und die Realisierung ermöglicht. Dazu gehören das Einwerben von Fördergeldern, Kommunikation zu Project-Stake-Holdern und allgemeines Projektmanagement."
+      }
+    ]
   }
 }
