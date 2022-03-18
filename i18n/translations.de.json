@@ -42,7 +42,7 @@
     "active_devs": "Aktive Teammitglieder",
     "former_devs": "Ehemalige Teammitglieder",
     "card": {
-      "role": "Rolle",
+      "role": "Position",
       "studies": "Studium",
       "activity": "Tätigkeiten"
     },
@@ -51,43 +51,43 @@
         {
           "name": "Oliver Hausdörfer",
           "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
-          "role": "Teamleiter",
+          "role": "Teamleitung",
           "github": "https://github.com/OliEfr",
-          "studies": "B.Sc. Maschinenbau an der TU Dresden | M.Sc. Robotik an der TUM",
-          "occupancy_in_tufast": "Projektmanagement; teils Entwicklung"
+          "studies": "M.Sc. Robotik, TU München",
+          "occupancy_in_tufast": "Projektmanagement"
         },
         {
           "name": "Lucas Fugmann",
           "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
-          "role": "Website-Lead",
+          "role": "Leitung Website",
           "github": "https://github.com/FugiMuffi",
-          "studies": "B.Sc. Informatik an der TU Dresden",
-          "occupancy_in_tufast": "Entwicklung; Backend-Experte; Hauptentwickler Website"
+          "studies": "B.Sc. Informatik, TU Dresden",
+          "occupancy_in_tufast": "Entwicklung Website, Backend"
         },
         {
           "name": "Lennart Guderian",
           "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
-          "role": "Co-Teamleiter",
+          "role": "Co-Teamleitung",
           "github": "https://github.com/Noxdor",
-          "studies": "Dipl.-Ing. Mechatronik TU Dresden",
-          "occupancy_in_tufast": "Entwicklung; Front-end-Experte; Hauptentwickler Design"
+          "studies": "Dipl.-Ing. Mechatronik, TU Dresden",
+          "occupancy_in_tufast": "Design; Front-End; Entwicklung TUfast"
         },
         {
           "name": "Daniel Kluge",
-          "role": "Extension-Lead",
+          "role": "Leitung TUfast",
           "image": "https://avatars.githubusercontent.com/u/43993811",
           "github": "https://github.com/C0ntroller",
           "studies": "Dipl.-Ing. Informationssystemtechnik",
-          "occupancy_in_tufast": "Entwicklung; kennt jede Zeile Code der Extension; Extension-Experte"
+          "occupancy_in_tufast": "Entwicklung TUfast; Web-Extension Experte"
         }
       ],
       "former": [
         {
           "name": "Jan Polzer",
           "image": "https://hausdoerfer.de/jpolzer.jpg",
-          "role": "Marketing-Lead",
-          "studies": "Medizin an der TU Dresden und in der Schweiz",
-          "occupancy_in_tufast": "PR und Vermarktung"
+          "role": "Leitung Marketing",
+          "studies": "Medizin, TU Dresden",
+          "occupancy_in_tufast": "Marketing; Öffentlichkeitsarbeit"
         }
       ]
     }
@@ -95,55 +95,64 @@
   "jobs": {
     "content": [
       "## Jobs",
-      "Das beste an TUfast?! Softwareentwicklung in der Praxis, ein Produkt das von über 2500 Studierenden genutzt wird, Coden für den guten Zweck (für deine Kommilitonen) und der direkte Kontakt zu den Nutzern!",
-      "Gerne können wir auch Studien-/Abschlussarbeiten über das Projekt betreuen. Wichtig ist, dass du parallel einen Betreuer an der Uni brauchst. Für mögliche Themen sei selbst kreativ oder lasse dich vom [Project-Board](https://github.com/orgs/TUfast-TUD/projects/1) inspirieren.",
-      "Nach einem Jahr Mitgliedschaft im Projekt erhältst du ein Zertifikat, welches dir dein Engagement und deine Beiträge zum Projekt bestätigt.",
+      "Das beste an TUfast? Software in der Praxis, ein Produkt mit über 2500 Nutzern und Coden für den guten Zweck (für deine Kommilitonen).",
+      "Wir können Studien- und Abschlussarbeiten über das Projekt betreuen. Wichtig ist, dass du parallel einen Betreuer an der Uni benötigst. Für mögliche Themen sei selbst kreativ oder lasse dich vom [Project-Board](https://github.com/orgs/TUfast-TUD/projects/1) inspirieren.",
+      "Nach einem Jahr Mitgliedschaft erhältst du ein Zertifikat für deine Beiträge und Engagement im Projekt.",
       "### Kontakt aufnehmen",
-      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit:\n 1. Welche Aufgabe oder eigene Idee möchtest du Bearbeiten?\n 2. Was ist deine Motivation am Projekt teilzunehmen?\n 3. Was sind deine drei obersten Ziele in der Softwareentwicklung für TUfast?",
-      "Deine Motivation und der Team-Fit sind für uns wichtiger, als technische Vorkenntnisse. Wir sind auch alle dabei, um zu lernen. Du kannst deine E-Mail gerne anonym verfassen, d.h. ohne Bild, Name und Herkunft (für Anonymität). Wir antworten dir innerhalb von 5 Tagen.",
+      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit:\n 1. Was werden deine drei wichtigsten Grundsätze bei der Softwareentwicklung für TUfast sein? 2. Welchen Teilbereich möchtest du übernehmen? Wir antworten dir innerhalb von 5 Tagen.",
+      "Wir selbst sind alle dabei, um zu Lernen. Deswegen sind uns deine Motivation und Grundsätze wichtiger als technische Vorkenntnisse.",
       "### Muss ich programmieren können, um am Projekt teilzuhaben?",
-      "Wenn du nicht Coden kannst, aber am Projekt sehr interessiert bist, kannst du gerne mitmachen. Wir haben viele Stellen, die auch Projektmanagement, Marketing und z.B. Bewerbung auf Fördergelder beinhalten.",
-      "Wenn du bei uns Software entwickeln willst sind prinzipiell Vorerfahrungen mit Git(Hub) und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
+      "Wenn du Software entwickeln willst sind Vorerfahrungen mit Git(Hub) und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
+      "Wenn du nicht Coden kannst, aber am Projekt sehr interessiert bist, kannst du gerne mitmachen. Wir haben Stellen, die z.B. Projektmanagement, Marketing und Einwerben von Fördergeldern beinhalten.",
       "### Offene Stellen"
     ],
     "listings": [
       {
-        "title": "TUfast Portierung für Safari",
+        "title": "TUfast für Safari",
         "tags": [
           "Entwicklung"
         ],
-        "content": "Du kennst dich mit Programmierung für Safari aus hast Bock, Verantwortung für die Umstellung von TUfast für Safari zu übernehmen? Diese Stelle beinhaltet die Portierung und Veröffentlichung von TUfast für Safari. Unsere Recherche hat ergeben, dass iOS / Safari wichtige Marktanteile hat, insbesondere in den Fakultäten Informatik und Medizin. Es wäre super, auch diese Studis zu erreichen!"
+        "content": "Wir bekommen viele Anfragen, dass TUfast doch bitte auch für Safari funktionieren soll. Du kennst dich mit Programmierung für Mac/Safari aus? Dann tu' deinen Kommilitonen etwas gutes und übernimm die Implementierung!"
       },
       {
-        "title": "TUfast manifest_v3 | Service-Worker",
+        "title": "TUfast für Mobil",
         "tags": [
           "Entwicklung"
         ],
-        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends. Durch eine Umstellung von TUfast auf diese Technologie, kann TUfast für mobile Geräte verfügbar gemacht werden und viele neue Funktionen hinzugefügt werden. Diese Stelle beinhaltet die Portierung von TUfast auf manifest_v3 und WebWorkers. Wenn du Lust auf innovative Web-Technologien hast, bewirb dich jetzt!"
+        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends - deswegen möchten wir auch auf diese Umstellen. Das ermöglicht, TUfast für mobile Geräte verfügbar zu machen und viele neue Funktionen."
       },
       {
-        "title": "TUfast für weitere Hochschulen",
+        "title": "TUfast für HTW (und andere Hochschulen)",
+        "tags": [
+          "Entwicklung",
+          "Produktmanagement",
+          "Projektmanagement
+        ],
+        "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir TUfast für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW."
+      },
+      {
+        "title": "TUfast Telemetry",
         "tags": [
           "Entwicklung",
           "Produktmanagement"
         ],
-        "content": "TUfast ist so großartig, dass wir es auch für andere Hochschulen in Sachsen verfügbar machen wollen - ein Markt von über 80.000 Nutzern! Du überlegst dir, wir man mehre Hochschulen in der Softwarearchitektur der Anwendung integrieren kann und setztt dein Konzept anschließend um. Große Autonomie und große Verantwortung!"
+        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen in Echtzeit auf unserer Website veröffentlicht werden. Die Nutzerdaten sollen öffentlich auf dieser Website für veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es."
       },
       {
-        "title": "Telemetry für TUfast",
-        "tags": [
-          "Entwicklung",
-          "Produktmanagement"
-        ],
-        "content": "Wir möchten TUfast weiter optimieren und für die Nutzer verbessern - mit 100% anonymen Nutzerdaten. Die Nutzerdaten sollen öffentlich auf dieser Website für veröffentlicht werden. Du überlegst dir, welche Tools für die Telemetry verwendet werden sollen (zB ClickHouse, OpenTelemetry) , wie die Server- und Backendarchitektur aussieht und implementierst es anschließend. Viel Freiraum für Experimente!"
-      },
-      {
-        "title": "Marketing und Management",
+        "title": "Marketing",
         "tags": [
           "Projektmanagement",
           "Marketing"
         ],
-        "content": "Jede Software lebt von ihren Nutzern und ihren Entwicklern! Wir suchen die besten Mitglieder für unser Team - gar nicht so einfach! Fühlst du dich dieser Aufgabe gewachsen?! Über Veranstaltungen, Vorlesungen, Instagram & Co machst du das TUfast-Projekt an der TU Dresden und weiteren Hochschulen in Sachsen bekannt. Für diese Stelle erhältst du viel eigene Freiheit und ein eigenes Marketing-Budget!"
+        "content": "Wir schätzen Marketing als elementaren Bestandteil unseres Projekts. Unser Ziel ist es, TUfast zu verbreiten, weshalb kreatives Marketing eine große Rolle spielt! Du willst Erfahrungen im Marketing und Produktkommunikation sammeln? Dann bist du hier genau richtig!"
+      },
+      {
+        "title": "Projektmanagement",
+        "tags": [
+          "Projektmanagement",
+          "Produktmanagement"
+        ],
+        "content": "Ein Team ist nur so gut, wie die gemeinsame Vision. Im Projektmanagement wird die Vision koordiniert und die Realisierung ermöglicht. Dazu gehören das Einwerben von Fördergeldern, Kommunikation zu Project-Stake-Holdern und allgemeines Projektmanagement.",
       }
     ]
   }
