@@ -95,11 +95,11 @@
       "Wir können Studien- und Abschlussarbeiten über das Projekt betreuen. Wichtig ist, dass du parallel einen Betreuer an der Uni benötigst. Für mögliche Themen sei selbst kreativ oder lasse dich vom [Project-Board](https://github.com/orgs/TUfast-TUD/projects/1) inspirieren.",
       "Nach einem Jahr Mitgliedschaft erhältst du ein Zertifikat für deine Beiträge und Engagement im Projekt.",
       "### Kontakt aufnehmen",
-      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit:\n 1. Was werden deine drei wichtigsten Grundsätze bei der Softwareentwicklung für TUfast sein? 2. Welchen Teilbereich möchtest du übernehmen? Wir antworten dir innerhalb von 5 Tagen.",
+      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit:\n 1. Was werden deine drei wichtigsten Grundsätze bei der Softwareentwicklung für TUfast sein?\n 2. Welchen Teilbereich möchtest du übernehmen? Wir antworten dir innerhalb von 5 Tagen.",
       "Wir selbst sind alle dabei, um zu Lernen. Deswegen sind uns deine Motivation und Grundsätze wichtiger als technische Vorkenntnisse.",
-      "### Muss ich programmieren können, um am Projekt teilzuhaben?",
-      "Wenn du Software entwickeln willst sind Vorerfahrungen mit Git(Hub) und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
-      "Wenn du nicht Coden kannst, aber am Projekt sehr interessiert bist, kannst du gerne mitmachen. Wir haben Stellen, die z.B. Projektmanagement, Marketing und Einwerben von Fördergeldern beinhalten.",
+      "### Muss ich Programmieren können, um am Projekt teilzuhaben?",
+      "Wenn du Software entwickeln willst sind Vorerfahrungen mit git und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
+      "Wenn du nicht Coden kannst, aber am Projekt sehr interessiert bist, kannst du trotzdem gerne mitmachen. Es gibt viele Aufgaben, die sich für den Einstieg in die Webentwicklung anbieten. Außerdem suchen wir auch Studierende, die sich für Projektmanagement, Marketing und Einwerben von Fördergeldern interessieren.",
       "### Offene Stellen"
     ],
     "listings": [
@@ -108,14 +108,14 @@
         "tags": [
           "Entwicklung"
         ],
-        "content": "Wir bekommen viele Anfragen, dass TUfast doch bitte auch für Safari funktionieren soll. Du kennst dich mit Programmierung für Mac/Safari aus? Dann tu' deinen Kommilitonen etwas gutes und übernimm die Implementierung!"
+        "content": "Wir bekommen viele Anfragen, dass TUfast auch Safari unterstützen soll. Du kennst dich mit Programmierung für macOS/Safari aus? Dann tu' deinen Kommilitonen etwas Gutes und übernimm die Implementierung!"
       },
       {
         "title": "TUfast für Mobil",
         "tags": [
           "Entwicklung"
         ],
-        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends - deswegen möchten wir auch auf diese Umstellen. Das ermöglicht, TUfast für mobile Geräte verfügbar zu machen und viele neue Funktionen."
+        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends - deswegen möchten wir auch auf diese umstellen. Das ermöglicht, TUfast für mobile Geräte verfügbar zu machen und viele neue Funktionen."
       },
       {
         "title": "TUfast für HTW (und andere Hochschulen)",
@@ -124,7 +124,7 @@
           "Produktmanagement",
           "Projektmanagement"
         ],
-        "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir TUfast für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW."
+        "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir daher TUfast auch für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW."
       },
       {
         "title": "TUfast Telemetry",
@@ -132,7 +132,7 @@
           "Entwicklung",
           "Produktmanagement"
         ],
-        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen in Echtzeit auf unserer Website veröffentlicht werden. Die Nutzerdaten sollen öffentlich auf dieser Website für veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es."
+        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen auf unserer Website veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es."
       },
       {
         "title": "Marketing",
@@ -140,7 +140,7 @@
           "Projektmanagement",
           "Marketing"
         ],
-        "content": "Wir schätzen Marketing als elementaren Bestandteil unseres Projekts. Unser Ziel ist es, TUfast zu verbreiten, weshalb kreatives Marketing eine große Rolle spielt! Du willst Erfahrungen im Marketing und Produktkommunikation sammeln? Dann bist du hier genau richtig!"
+        "content": "Wir schätzen Marketing als elementaren Bestandteil unseres Projekts. Unser Ziel ist es, TUfast zu verbreiten, weshalb kreatives Marketing eine große Rolle spielt! Du willst Erfahrungen im Bereich Marketing und Produktkommunikation sammeln? Dann bist du hier genau richtig!"
       },
       {
         "title": "Projektmanagement",
