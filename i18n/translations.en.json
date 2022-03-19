@@ -124,6 +124,14 @@
         "content": "TUfast is great - students at the HTW have also noticed that. Therefore, we would like to make TUfast available for HTW as well by the end of the year. This includes: Designing a software concept to integrate more universities and implementing it for HTW. \n\n Learning: Software design, web development, user oriented services"
       },
       {
+        "title": "IT Security",
+        "tags": [
+          "IT Security",
+          "Development"
+        ],
+        "content": "We are looking for someone who looks into the security aspects of TUfast. We already got feedback and a scrutiny from the Informationssicherheit TU Dresden. In the future, we would like to evaluate security internally and implement measures accordingly. \n\n Learnings: IT security, Websecurity, Webdevelopment"
+      },
+      {
         "title": "TUfast Telemetry",
         "tags": [
           "Development",
