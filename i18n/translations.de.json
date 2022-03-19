@@ -52,6 +52,14 @@
           "studies": "M.Sc. Robotik, TU München",
           "occupancy_in_tufast": "Projektmanagement"
         },
+         {
+          "name": "Lennart Guderian",
+          "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
+          "role": "Co-Teamleitung",
+          "github": "https://github.com/Noxdor",
+          "studies": "Dipl.-Ing. Mechatronik, TU Dresden",
+          "occupancy_in_tufast": "Design; Front-End; Entwicklung TUfast"
+        },
         {
           "name": "Lucas Fugmann",
           "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
@@ -59,14 +67,6 @@
           "github": "https://github.com/FugiMuffi",
           "studies": "B.Sc. Informatik, TU Dresden",
           "occupancy_in_tufast": "Entwicklung Website, Backend"
-        },
-        {
-          "name": "Lennart Guderian",
-          "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
-          "role": "Co-Teamleitung",
-          "github": "https://github.com/Noxdor",
-          "studies": "Dipl.-Ing. Mechatronik, TU Dresden",
-          "occupancy_in_tufast": "Design; Front-End; Entwicklung TUfast"
         },
         {
           "name": "Daniel Kluge",
