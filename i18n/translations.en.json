@@ -53,20 +53,20 @@
           "occupancy_in_tufast": "Project management"
         },
         {
-          "name": "Lucas Fugmann",
-          "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
-          "role": "Website Lead",
-          "github": "https://github.com/FugiMuffi",
-          "studies": "B.Sc. Computer Science, TU Dresden",
-          "occupancy_in_tufast": "Development Website; backend expert"
-        },
-        {
           "name": "Lennart Guderian",
           "image": "https://lennart.guderian.de/uploads/small_Headshot_low_ff4358986f.jpg",
           "role": "Team Co-Lead",
           "github": "https://github.com/Noxdor",
           "studies": "Dipl.-Ing. Mechatronics, TU Dresden",
           "occupancy_in_tufast": "Design; front-end development"
+        },
+        {
+          "name": "Lucas Fugmann",
+          "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
+          "role": "Website Lead",
+          "github": "https://github.com/FugiMuffi",
+          "studies": "B.Sc. Computer Science, TU Dresden",
+          "occupancy_in_tufast": "Development Website; backend expert"
         },
         {
           "name": "Daniel Kluge",
