@@ -23,11 +23,11 @@ const Team = () => {
             className={styles.card}
             cover={member.image ? <img src={member.image} alt={member.name} className={styles.cardImg} /> : null}
             actions={[
-                member.github ? <Link key="github" href={member.github} passHref><a style={{color: '#000b'}}><FaGithub /></a></Link> : null
+                member.github ? <Link key="github" href={member.github} passHref><a style={{color: '#000b', }}><FaGithub /></a></Link> : null
             ]}
         >
             <Card.Meta
-                title={member.name}
+                title={<span style={{ fontWeight: 'bold', textAlign: 'center' }}>{member.name}</span>}
                 description={<Descriptions
                 column={1}
                 layout='horizontal'

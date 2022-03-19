@@ -23,7 +23,7 @@ const Jobs = () => {
   const jobCards = (t('jobs.listings') as Array<Job>).map((job, i) =>
     <Card
       key={i}
-      title={job.title}
+      title={<span style={{ fontWeight: 'bold' }}>{job.title}</span>}
       extra={job.tags.map((tag, i) => <Tag key={i} color={tagToColor(tag)}>{tag}</Tag>)}
     >
       <Markdown content={job.content} />

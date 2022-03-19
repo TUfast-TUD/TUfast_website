@@ -92,11 +92,9 @@
     "content": [
       "## Jobs",
       "Das beste an TUfast? Software in der Praxis, ein Produkt mit über 2500 Nutzern und Coden für den guten Zweck (für deine Kommilitonen).",
-      "Wir können Studien- und Abschlussarbeiten über das Projekt betreuen. Wichtig ist, dass du parallel einen Betreuer an der Uni benötigst. Für mögliche Themen sei selbst kreativ oder lasse dich vom [Project-Board](https://github.com/orgs/TUfast-TUD/projects/1) inspirieren.",
-      "Nach einem Jahr Mitgliedschaft erhältst du ein Zertifikat für deine Beiträge und Engagement im Projekt.",
-      "### Kontakt aufnehmen",
-      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit:\n 1. Was werden deine drei wichtigsten Grundsätze bei der Softwareentwicklung für TUfast sein?\n 2. Welchen Teilbereich möchtest du übernehmen? Wir antworten dir innerhalb von 5 Tagen.",
+      "Schreib' uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) mit: 1. Was werden deine drei wichtigsten Grundsätze bei der Softwareentwicklung für TUfast sein? 2. Welchen Teilbereich möchtest du übernehmen? Wir antworten dir innerhalb von 5 Tagen.",
       "Wir selbst sind alle dabei, um zu Lernen. Deswegen sind uns deine Motivation und Grundsätze wichtiger als technische Vorkenntnisse.",
+      "Nach einem Jahr Mitgliedschaft erhältst du ein Zertifikat für deine Beiträge und Engagement im Projekt.",
       "### Muss ich Programmieren können, um am Projekt teilzuhaben?",
       "Wenn du Software entwickeln willst sind Vorerfahrungen mit git und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
       "Wenn du nicht Coden kannst, aber am Projekt sehr interessiert bist, kannst du trotzdem gerne mitmachen. Es gibt viele Aufgaben, die sich für den Einstieg in die Webentwicklung anbieten. Außerdem suchen wir auch Studierende, die sich für Projektmanagement, Marketing und Einwerben von Fördergeldern interessieren.",
@@ -145,8 +143,8 @@
       {
         "title": "Projektmanagement",
         "tags": [
-          "Projektmanagement",
-          "Produktmanagement"
+          "Produktmanagement",
+          "Projektmanagement"
         ],
         "content": "Ein Team ist nur so gut, wie die gemeinsame Vision. Im Projektmanagement wird die Vision koordiniert und die Realisierung ermöglicht. Dazu gehören das Einwerben von Fördergeldern, Kommunikation zu Project-Stake-Holdern und allgemeines Projektmanagement."
       }

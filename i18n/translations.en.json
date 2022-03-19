@@ -92,10 +92,8 @@
     "content": [
       "## Jobs",
       "The best thing about TUfast? Software development for a real use case, a tool with 2500 users and providing a benefit for your fellow students!",
-      "Thesis or research projects can also be done at TUfast, however, you will need a supervisor from your university. For possible topics, be creative or get some inspiration from the [project board](https://github.com/orgs/TUfast-TUD/projects/1).",
+      "Write us an e-mail at [frage@tu-fast.de](mailto:frage@tu-fast.de) that answers the following questions: 1. What will be your top three principles in software development for TUfast?\n 2. Which part of the project would you like to contribute to? We will answer your mail within 5 days.",
       "After one year of membership, you will receive a certificate for your contributions and involvement in the project.",
-      "### Contact",
-      "Write us an e-mail at [frage@tu-fast.de](mailto:frage@tu-fast.de) that answers the following questions:\n 1. What will be your top three principles in software development for TUfast?\n 2. Which part of the project would you like to contribute to? We will answer you within 5 days.",
       "### Do I need to be able to write software to participate?",
       "If you want to develop software, previous experience with git and web technologies is useful. However, our tech stack is not complicated.",
       "If you cannot code but are really interested in the project, you are still welcome to participate. We have many tasks that would be suitable to get into web development. Beyond that, we are also looking for students interested in project management, product communication and marketing.",
@@ -136,16 +134,16 @@
       {
         "title": "Marketing",
         "tags": [
-          "Marketing",
-          "Product management"
+          "Product management",
+          "Marketing"
         ],
         "content": "We value marketing as a huge part of our project. Our goal is, to develop a clear brand communication and distribute TUfast to as many users as possible. You want to gather experience in marketing and brand communication? Then this is the perfect spot for you!"
       },
       {
         "title": "Project management",
         "tags": [
-          "Project management",
-          "Product management"
+          "Product management",
+          "Project management"
         ],
         "content": "A team is only as good as its shared vision. In project management, you make sure that this vision is communicated and achieved. This includes looking for project sponsors, communication to project stake-holders and general project management."
       }
