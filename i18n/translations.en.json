@@ -49,7 +49,7 @@
           "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
           "role": "Team Lead",
           "github": "https://github.com/OliEfr",
-          "studies": "M.Sc. Robotics, TUM",
+          "studies": "M.Sc. Robotics, TU Munich",
           "occupancy_in_tufast": "Project management"
         },
         {
@@ -105,14 +105,14 @@
         "tags": [
           "Development"
         ],
-        "content": "We get many requests that TUfast should also support Safari. You have experience with developing for macOS/Safari? Then do your fellow students a favor and take over the implementation!"
+        "content": "We get many requests that TUfast should also support Safari. You have experience with developing for macOS/Safari? Then do your fellow students a favor and take over the implementation! \n\n Learnings: Distribution of web extensions, web development, macOS/Safari"
       },
       {
         "title": "TUfast for mobile",
         "tags": [
           "Development"
         ],
-        "content": "Service-Workers are the latest trend in web technologies - that's why we want to switch to them as well. This will enable us to make TUfast available for mobile devices and to add many new features."
+        "content": "Service-Workers are the latest trend in web technologies - that's why we want to switch to them as well. This will enable us to make TUfast available for mobile devices and to add many new features. \n\n Learnings: Mobile optimization, service workers"
       },
       {
         "title": "TUfast for HTW (and other Universities)",
@@ -121,7 +121,7 @@
           "Product management",
           "Project management"
         ],
-        "content": "TUfast is great - students at the HTW have also noticed that. Therefore, we would like to make TUfast available for HTW as well by the end of the year. This includes: Designing a software concept to integrate more universities and implementing it for HTW."
+        "content": "TUfast is great - students at the HTW have also noticed that. Therefore, we would like to make TUfast available for HTW as well by the end of the year. This includes: Designing a software concept to integrate more universities and implementing it for HTW. \n\n Learning: Software design, web development, user oriented services"
       },
       {
         "title": "TUfast Telemetry",
@@ -129,7 +129,7 @@
           "Development",
           "Product management"
         ],
-        "content": "We want to collect anonymous usage data for TUfast to make the service even better. This data should be published on our website as well. Possible tools include Clickhouse or OpenTelemetry."
+        "content": "We want to collect anonymous usage data for TUfast to make the service even better. This data should be published on our website as well. Possible tools include Clickhouse or OpenTelemetry. \n\n Learnings: Product telemetry, back-end design and implementation"
       },
       {
         "title": "Marketing",
@@ -137,7 +137,7 @@
           "Product management",
           "Marketing"
         ],
-        "content": "We value marketing as a huge part of our project. Our goal is, to develop a clear brand communication and distribute TUfast to as many users as possible. You want to gather experience in marketing and brand communication? Then this is the perfect spot for you!"
+        "content": "We value marketing as a huge part of our project. Our goal is, to develop a clear brand communication and distribute TUfast to as many users as possible. You want to gather experience in marketing and brand communication? Then this is the perfect spot for you! \n\n Learnings: Design, brand communication, project responsibility"
       },
       {
         "title": "Project management",
@@ -145,7 +145,7 @@
           "Product management",
           "Project management"
         ],
-        "content": "A team is only as good as its shared vision. In project management, you make sure that this vision is communicated and achieved. This includes looking for project sponsors, communication to project stake-holders and general project management."
+        "content": "A team is only as good as its shared vision. In project management, you make sure that this vision is communicated and achieved. This includes looking for project sponsors, communication to project stake-holders and general project management. \n\n Learnings: Project responsibility, leading, handling stake-holders"
       }
     ]
   }

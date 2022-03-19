@@ -106,14 +106,14 @@
         "tags": [
           "Entwicklung"
         ],
-        "content": "Wir bekommen viele Anfragen, dass TUfast auch Safari unterstützen soll. Du kennst dich mit Programmierung für macOS/Safari aus? Dann tu' deinen Kommilitonen etwas Gutes und übernimm die Implementierung!"
+        "content": "Wir bekommen viele Anfragen, dass TUfast auch Safari unterstützen soll. Du kennst dich mit Programmierung für macOS/Safari aus? Dann tu' deinen Kommilitonen etwas Gutes und übernimm die Implementierung! \n\n Learnings: Verteilung von Webextensions, Webentwicklung, macOS/Safari"
       },
       {
         "title": "TUfast für Mobil",
         "tags": [
           "Entwicklung"
         ],
-        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends - deswegen möchten wir auch auf diese umstellen. Das ermöglicht, TUfast für mobile Geräte verfügbar zu machen und viele neue Funktionen."
+        "content": "Service-Workers sind der letzte Schrei der Webtechnologien und einer der größten Zukunftstrends - deswegen möchten wir auch auf diese umstellen. Das ermöglicht, TUfast für mobile Geräte verfügbar zu machen und viele neue Funktionen. \n\n Learnings: Mobile Optimierung, Service workers"
       },
       {
         "title": "TUfast für HTW (und andere Hochschulen)",
@@ -122,7 +122,7 @@
           "Produktmanagement",
           "Projektmanagement"
         ],
-        "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir daher TUfast auch für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW."
+        "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir daher TUfast auch für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW. \n\n Learnings: Softwaredesign, Webentwicklung, nutzerorientierte Entwicklung"
       },
       {
         "title": "TUfast Telemetry",
@@ -130,7 +130,7 @@
           "Entwicklung",
           "Produktmanagement"
         ],
-        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen auf unserer Website veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es."
+        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen auf unserer Website veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es. \n\n Learnings: Produkttelemetrie, Backend Design und Implementierung"
       },
       {
         "title": "Marketing",
@@ -138,7 +138,7 @@
           "Projektmanagement",
           "Marketing"
         ],
-        "content": "Wir schätzen Marketing als elementaren Bestandteil unseres Projekts. Unser Ziel ist es, TUfast zu verbreiten, weshalb kreatives Marketing eine große Rolle spielt! Du willst Erfahrungen im Bereich Marketing und Produktkommunikation sammeln? Dann bist du hier genau richtig!"
+        "content": "Wir schätzen Marketing als elementaren Bestandteil unseres Projekts. Unser Ziel ist es, TUfast zu verbreiten, weshalb kreatives Marketing eine große Rolle spielt! Du willst Erfahrungen im Bereich Marketing und Produktkommunikation sammeln? Dann bist du hier genau richtig! \n\n Learnings: Design, Markenkommunikation, Projektverantwortung"
       },
       {
         "title": "Projektmanagement",
@@ -146,7 +146,7 @@
           "Produktmanagement",
           "Projektmanagement"
         ],
-        "content": "Ein Team ist nur so gut, wie die gemeinsame Vision. Im Projektmanagement wird die Vision koordiniert und die Realisierung ermöglicht. Dazu gehören das Einwerben von Fördergeldern, Kommunikation zu Project-Stake-Holdern und allgemeines Projektmanagement."
+        "content": "Ein Team ist nur so gut, wie die gemeinsame Vision. Im Projektmanagement wird die Vision koordiniert und die Realisierung ermöglicht. Dazu gehören das Einwerben von Fördergeldern, Kommunikation zu Project-Stake-Holdern und allgemeines Projektmanagement. \n\n Learnings: Projektverantwortung, Teamleitung, Stake-Holder Kommunikation"
       }
     ]
   }
