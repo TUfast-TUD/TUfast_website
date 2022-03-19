@@ -125,6 +125,14 @@
         "content": "TUfast ist großartig - das haben auch schon Studierende der HTW bemerkt. Bis Ende des Jahres möchten wir daher TUfast auch für die HTW verfügbar machen. Das beinhaltet: Entwurf eines Softwarekonzepts zur Integration weiterer Hochschulen und Implementierung für die HTW. \n\n Learnings: Softwaredesign, Webentwicklung, nutzerorientierte Entwicklung"
       },
       {
+        "title": "IT-Sicherheit",
+        "tags": [
+          "Entwicklung",
+          "IT-Security"
+        ],
+        "content": "Wir suchen nach jemanden, der sich gerne mit der IT-Security von TUfast beschäftigen möchte. Wir haben Rücksprache und ein Scrutiny von der Informationssicherheit der TU Dresden erhalten. Zukünftig möchten wir die IT-Sicherheit gerne intern beurteilen und entsprechende Maßnahmen implementieren. \n\n Learnings: IT-Sicherheit, Web-Sicherheit, Webentwicklung"
+      },
+      {
         "title": "TUfast Telemetry",
         "tags": [
           "Entwicklung",
