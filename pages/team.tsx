@@ -23,22 +23,22 @@ const Team = () => {
             className={styles.card}
             cover={member.image ? <img src={member.image} alt={member.name} className={styles.cardImg} /> : null}
             actions={[
-                member.github ? <Link key="github" href={member.github} passHref><a style={{color: '#000b', }}><FaGithub /></a></Link> : null
+                member.github ? <Link key="github" href={member.github} passHref><a style={{color: '#000b', }}><FaGithub size={25} /></a></Link> : null
             ]}
         >
             <Card.Meta
-                title={<span style={{ fontWeight: 'bold', textAlign: 'center' }}>{member.name}</span>}
+                title={<div style={{ fontWeight: 'bold', textAlign: 'center', width: '100%' }}>{member.name}</div>}
                 description={<Descriptions
                 column={1}
                 layout='horizontal'
                 bordered>
-                    <Descriptions.Item label={t('team.card.role')}>
+                    <Descriptions.Item label={t('team.card.role')} style={{padding: '8px 20px'}}>
                         {member.role}
                     </Descriptions.Item>
-                    <Descriptions.Item label={t('team.card.studies')}>
+                    <Descriptions.Item label={t('team.card.studies')} style={{padding: '8px 20px'}}>
                         {member.studies}
                     </Descriptions.Item>
-                    <Descriptions.Item label={t('team.card.activity')}>
+                    <Descriptions.Item label={t('team.card.activity')} style={{padding: '8px 20px'}}>
                         {member.occupancy_in_tufast}
                     </Descriptions.Item>
                 </Descriptions>
