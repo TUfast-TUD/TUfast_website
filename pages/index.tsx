@@ -75,14 +75,26 @@ const Home: NextPage = () => {
 
   ]
 
-  const FsrIcons = () =>
-    <div className={styles.fsrIcons}>
+  const SupporterLogos = () => <>
+    <div className={styles.supporterLogos}>
       {fsr.map((val, i) =>
-        <a  target={'_blank'} rel="noreferrer" href={val.url} title={val.name} key={i}>
+        <a target="_blank" rel="noreferrer" href={val.url} title={val.name} key={i}>
           <img src={val.logo} alt={val.name}/>
         </a>
       )}
     </div>
+    <div className={styles.supporterLogos}>
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.stifterverband.org/digitalchangemaker-accelerator"
+        title="Stifterverband"
+        style={{height: 86}}
+      >
+        <img src="/sv.svg" alt="Stifterverband"/>
+      </a>
+    </div>
+  </>
 
   return (
     <Layout>
@@ -109,8 +121,8 @@ const Home: NextPage = () => {
       <div id="project">
         {(t('projectAndVision.content') as Array<string>).map((section, i) =>
           <Markdown key={i} content={section} components={{
-            // a little hack to insert the FsrIcons component by replacing <hr/> (*** in markdown)
-            hr: FsrIcons
+            // a little hack to insert the SupporterLogos component by replacing <hr/> (*** in markdown)
+            hr: SupporterLogos
           }}/>
         )}
       </div>
