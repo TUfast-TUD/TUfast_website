@@ -1,5 +1,5 @@
 import { Card, Descriptions, Space } from 'antd'
-import { useSelectedLanguage, useTranslation } from 'next-export-i18n'
+import { useTranslation } from 'next-export-i18n'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
 import Layout from '../components/Layout'
@@ -16,6 +16,8 @@ interface Member {
 
 const Team = () => {
     const { t } = useTranslation()
+
+    const padArray = (arr: JSX.Element[]) => Array.from({...arr, length: Math.max(arr.length, 4)}, v => v ?? <div/>)
 
     const memberToCard = (member: Member) => {
         return <Card
@@ -52,11 +54,11 @@ const Team = () => {
             <h2>{t('team.h')}</h2>
             <h3>{t('team.active_devs')}</h3>
             <Space direction='horizontal' align='center' wrap className={styles.members}>
-                {t('team.members.active').map(memberToCard)}
+                {padArray(t('team.members.active').map(memberToCard))}
             </Space>
             <h3>{t('team.former_devs')}</h3>
             <Space direction='horizontal' align='center' wrap className={styles.members}>
-                {t('team.members.former').map(memberToCard)}
+                {padArray(t('team.members.former').map(memberToCard))}
             </Space>
         </Layout>
     )
