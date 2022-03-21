@@ -13,12 +13,12 @@
     "subHeading": "Für TU Dresden Studierende (und Mitarbeiter).",
     "installPrompt": "Jetzt laden für",
     "availableFor": "Verfügbar für [Firefox]({{firefox}}), [Chrome]({{chrome}}) und [Edge]({{chrome}}) Browser",
-    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir in Zusammenarbeit mit euch und den FSRs das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
   },
   "projectAndVision": {
     "content": [
       "## Projekt",
-      "TUfast wurde im Mai 2020 geboren und hat Stand 01.01.2022 bereits über 2500 Nutzer. Das Projekt ist quelloffen auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden entwickelt. Seit zwei Jahren entwickeln wir das perfekte Tool, um euch den Studienalltag zu erleichtern!",
+      "TUfast wurde im Mai 2020 geboren und hat Stand 01.01.2022 über 2500 Nutzer. Das Projekt ist quelloffen auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden entwickelt.",
       "### 🚀 Was kann TUfast?",
       "Mit TUfast kannst du **2000 Klicks und 90 Minuten** pro Semester sparen!",
       "Dafür stell TUfast eine Reihe an Funktionen zur Verfügung. Dazu gehören:",

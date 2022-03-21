@@ -77,13 +77,6 @@ const Home: NextPage = () => {
 
   const SupporterLogos = () => <>
     <div className={styles.supporterLogos}>
-      {fsr.map((val, i) =>
-        <a target="_blank" rel="noreferrer" href={val.url} title={val.name} key={i}>
-          <img src={val.logo} alt={val.name}/>
-        </a>
-      )}
-    </div>
-    <div className={styles.supporterLogos}>
       <a
         target="_blank"
         rel="noreferrer"
@@ -93,6 +86,13 @@ const Home: NextPage = () => {
       >
         <img src="/sv.svg" alt="Stifterverband"/>
       </a>
+    </div>
+    <div className={styles.supporterLogos}>
+      {fsr.map((val, i) =>
+        <a target="_blank" rel="noreferrer" href={val.url} title={val.name} key={i}>
+          <img src={val.logo} alt={val.name}/>
+        </a>
+      )}
     </div>
   </>
 

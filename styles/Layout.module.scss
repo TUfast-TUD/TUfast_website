@@ -1,5 +1,5 @@
 .mainContainer {
-    padding: 50px;
+    padding: 50px min(15vw, 150px) 50px min(15vw, 150px); /*top right bottom left*/
     max-width: 1920px;
     width: 100%;
     align-self: center;

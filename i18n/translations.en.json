@@ -13,12 +13,12 @@
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}), [Chrome]({{chrome}}) and [Edge]({{chrome}}) browsers",
-    "infoSection": "### By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden.\nFor two years, we have been working with you and the FSRs to develop the perfect product to make your everyday study life easier.\n\nFind out more about the project on this site and install TUfast now!"
+    "infoSection": "### By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden.\nFor two years, we have been creating the perfect product to make your everyday study life easier.\n\nFind out more about the project on this site and install TUfast now!"
   },
   "projectAndVision": {
     "content": [
       "## Project",
-      "TUfast has come alive in May 2020 and has more than 2500 users as of 01.01.2022. The project is open-source on [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students. For two years now, we have been creating the perfect tool for your everyday student life!",
+      "TUfast has come alive in May 2020 and has more than 2500 users as of 01.01.2022.",
       "### 🚀 What does TUfast do?",
       "With TUfast you can **save up to 2000 Clicks and 90 minutes** per semester!",
       "To do this, TUfast provides a number of features to make your everyday studies easier, such as:",
