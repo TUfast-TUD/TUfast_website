@@ -1,14 +1,13 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import { Divider, Layout, Space, Menu, Dropdown } from 'antd'
-import { DownOutlined } from '@ant-design/icons';
-import { useTranslation, useSelectedLanguage, LanguageSwitcher } from 'next-export-i18n'
-import Rocket from './Rocket'
+import { Divider, Layout, Space } from 'antd'
+import { useTranslation, useSelectedLanguage } from 'next-export-i18n'
 import styles from '../styles/Layout.module.scss'
 import { FaGithub, FaEnvelope } from 'react-icons/fa'
 import { SiMatrix } from 'react-icons/si'
-import { useEffect } from 'react';
+import { useEffect } from 'react'
+import ResponsiveMenu, { MenuItem } from './ResponsiveMenu'
 
 const { Header, Content, Footer } = Layout
 
@@ -34,21 +33,41 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         { text: 'Datenschutz', href: '/datenschutz', icon: () => <></> },
     ]
 
-    const links = linksObj.map(link => <div className={styles.links} key={link.text}>
-        <link.icon/>
-        {['#', '/'].includes(link.href.charAt(0)) ? <Link href={link.href}>{link.text}</Link> : <a href={link.href} target={'_blank'} rel="noreferrer">{link.text}</a>}
-    </div>)
+    const links = linksObj.map(link => (
+        <div className={styles.links} key={link.text}>
+            <link.icon/>
+            {['#', '/'].includes(link.href.charAt(0)) ? <Link href={link.href}>{link.text}</Link> : <a href={link.href} target={'_blank'} rel="noreferrer">{link.text}</a>}
+        </div>
+    ))
 
-    const languageSelector = (
-        <Menu>
-            <LanguageSwitcher lang="de">
-                <Menu.Item key="de">{t('language.de')}</Menu.Item>
-            </LanguageSwitcher>
-            <LanguageSwitcher lang="en">
-                <Menu.Item key="en">{t('language.en')}</Menu.Item>
-            </LanguageSwitcher>
-        </Menu>
-    );
+
+    const menuItems: MenuItem[] = [
+        {
+            key: 'project',
+            href: '/#project',
+            text: t('nav.projectAndVision'),
+        },
+        // {
+        //     key: 'project',
+        //     href: '/project',
+        //     text: t('nav.projectAndVision')
+        // },
+        {
+            key: 'team',
+            href: '/team',
+            text: 'Team',
+        },
+        {
+            key: 'jobs',
+            href: '/jobs',
+            text: 'Jobs',
+        },
+        // {
+        //     key: 'blog',
+        //     href: '/blog',
+        //     text: 'Blog',
+        // },
+    ]
 
     return <>
         <Head>
@@ -58,38 +77,13 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         </Head>
         <Layout className={styles.layout}>
             <Header className={styles.navbar}>
-                <Link href={'/'} passHref>
-                    <a className={styles.logo}>
-                        <Rocket style={{verticalAlign: 'baseline', marginBottom: -3}}/>
-                        <span> TUfast</span>
-                    </a>
-                </Link>
-
-                <Menu theme='dark' mode="horizontal" defaultSelectedKeys={siteKey ? [siteKey] : []} style={{fontSize: '1rem', flex: 'auto'}} selectable={false}>
-                    <Menu.Item key={'project'}>
-                        <Link href={'/#project'}>{t('nav.projectAndVision')}</Link>
-                    </Menu.Item>
-                    {/* <Menu.Item key={'project'}>
-                        <Link href={'/project'} passHref><a>Project and Vision</a></Link>
-                    </Menu.Item> */}
-                    <Menu.Item key={'team'}>
-                        <Link href={'/team'} passHref><a>Team</a></Link>
-                    </Menu.Item>
-                    <Menu.Item key={'jobs'}>
-                        <Link href={'/jobs'} passHref><a>Jobs</a></Link>
-                    </Menu.Item>
-                    {/* <Menu.Item key={'blog'}>
-                        <Link href={'/blog'} passHref><a>Blog</a></Link>
-                    </Menu.Item> */}
-                </Menu>
-
-                <Dropdown overlay={languageSelector} trigger={['click']} className={styles.languageSelector}>
-                    <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>{t('language.selector')} <DownOutlined/></a>
-                </Dropdown>
+                <ResponsiveMenu menuItems={menuItems} siteKey={siteKey} />
             </Header>
+
             <Content className={styles.mainContainer}>
                 { children }
             </Content>
+
             <Footer style={{ textAlign: 'center' }}>
                 <Space split={<Divider type="vertical" />} style={{flexWrap: 'wrap', justifyContent: 'center'}}>
                     { links }
