@@ -20,6 +20,10 @@
             letter-spacing: 1.5px;
             left: 3px;
         }
+
+        @media screen and (max-width: 650px) {
+            letter-spacing: 0.2px !important;
+        }
     }
 
     .brandH {
@@ -30,10 +34,19 @@
         position: relative;
         top: -7px;
         left: -5px;
-        .rocketLogo {
-            height: 1.3em;
-            position: relative;
-            top: -5px;
+
+        @media screen and (max-width: 650px) {
+            font-size: 3.5rem;
+        }
+    }
+
+    .rocketLogo {
+        height: 1.3em;
+        position: relative;
+        top: -5px;
+
+        @media screen and (max-width: 650px) {
+            top: -3px;
         }
     }
 }
