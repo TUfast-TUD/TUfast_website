@@ -1,8 +1,12 @@
 .mainContainer {
-    padding: 50px min(15vw, 150px) 50px min(15vw, 150px); /*top right bottom left*/
+    padding: 50px min(15vw, 150px);
     max-width: 1920px;
     width: 100%;
     align-self: center;
+
+    @media screen and (max-width: 650px) {
+        padding: 50px 7vw;
+    }
 
     p {
         margin-bottom: 10px;
