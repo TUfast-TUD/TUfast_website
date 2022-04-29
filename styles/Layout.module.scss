@@ -1,20 +1,17 @@
 .mainContainer {
-    padding: 50px min(15vw, 150px) 50px min(15vw, 150px); /*top right bottom left*/
+    padding: 50px min(15vw, 150px);
     max-width: 1920px;
     width: 100%;
     align-self: center;
+
+    @media screen and (max-width: 650px) {
+        padding: 50px 7vw;
+    }
 
     p {
         margin-bottom: 10px;
         white-space: pre-wrap;
     }
-}
-
-.logo {
-    float: left;
-    color: white;
-    font-size: 1.8rem;
-    margin-right: 20px;
 }
 
 .layout {
@@ -29,20 +26,10 @@
     left: 0;
     right: 0;
     z-index: 100;
-
-    .languageSelector {
-        padding: 0 20px;
-    }
 }
 
 .links {
     display: flex;
     align-items: center;
     gap: 6px;
-}
-
-@media screen and (max-width: 500px) {
-    .logo span {
-        display: none;
-    }
 }

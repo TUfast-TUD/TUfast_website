@@ -3,6 +3,7 @@ import { useTranslation } from 'next-export-i18n'
 import seedrandom from 'seedrandom'
 import Layout from '../components/Layout'
 import Markdown from '../components/Markdown'
+import styles from '../styles/Jobs.module.scss'
 
 const tagToColor = (tag: string) => {
   const colors = ['pink', 'red', 'yellow', 'orange', 'cyan', 'green', 'blue', 'purple', 'geekblue', 'magenta', 'volcano', 'gold']
@@ -36,15 +37,9 @@ const Jobs = () => {
         <Markdown key={i} content={section} />
       )}
 
-      <Space direction="vertical" size="middle">
+      <Space direction="vertical" size="middle" className={styles.cardsWrapper}>
         {jobCards}
       </Space>
-
-      <style jsx>{`
-        :global(.ant-card-body > *) {
-          font-size: 16px;
-        }
-      `}</style>
     </Layout>
   )
 }

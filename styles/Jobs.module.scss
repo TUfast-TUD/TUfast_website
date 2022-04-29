@@ -1,0 +1,34 @@
+.cardsWrapper {
+  // antd overrides to make it responsive
+
+  :global(.ant-card-body) > * {
+    font-size: 16px;
+  }
+
+  :global(.ant-card-head-wrapper) {
+    flex-wrap: wrap;
+    padding: 16px 0;
+    gap: 8px;
+  }
+
+  :global(.ant-card-head-title) {
+    flex: auto;
+    padding: 0;
+
+    span {
+      white-space: pre-wrap;
+    }
+  }
+
+  :global(.ant-card-extra) {
+    padding: 0;
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+  }
+
+  :global(.ant-tag) {
+    margin: 0;
+  }
+}
