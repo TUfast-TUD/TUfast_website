@@ -17,19 +17,19 @@
   },
   "projectAndVision": {
     "content": [
-      "## Project",
-      "TUfast has come alive in May 2020 and has more than 2500 users as of 01.01.2022.",
-      "### 🚀 What does TUfast do?",
-      "With TUfast you can **save up to 2000 Clicks and 90 minutes** per semester!",
+      "## About the project",
+      "TUfast was released in May 2020 and has more than 2500 students using it as of 01.01.2022. The open-source project is developed by students at TU Dresden.",
+      "### What does TUfast do? 🚀",
+      "TUfast is a productivity tool, which supports students in their everyday life. With TUfast you can save up to 2000 Clicks and 90 minutes per semester!",
       "To do this, TUfast provides a number of features to make your everyday studies easier, such as:",
       "- AutoLogin to all online platforms\n - Quick-access and hotkeys for many platforms\n - Supports SELMA, OPAL, jExam and many more\n - Overview of all your OPAL-courses as well as improvements for OPAL itself.\n - ... and many more that you can discover in TUfast ;)",
-      "### 🔐 Is TUfast secure?",
+      "### Is TUfast secure? 🔐",
       "The TUfast extension stores user data only locally on your device. If you uninstall the extension, all data will be deleted as well. Additionally, TUfast is currently being audited by the department of IT security of TU Dresden. Here you can find our [privacy policy](/datenschutz).",
-      "### 🔮 Whats next?",
+      "### Whats next? 🔮",
       "We want to make TUfast available for 5000+ students at TU Dresden and for at least one more university in Saxony by end of this year.",
       "In addition, we are currently looking for funding and incubators.",
-      "### ❤️ Supporters",
-      "The project is being supported by:",
+      "### Supporters ❤️",
+      "Supporters of the project include:",
       " - Ms. Jantos, the eLearning coordinator of TU Dresden\n - The [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) of the Stifterverband\n - Exhibiting of the Faculty of Computer Science at TU Dresden: [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden/)\n - Kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Several student councils",
       "***"
     ]
