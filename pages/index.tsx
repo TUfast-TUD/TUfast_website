@@ -76,7 +76,7 @@ const Home: NextPage = () => {
   ]
 
   const SupporterLogos = () => <>
-    <div className={styles.supporterLogos}>
+    <div className={styles.supporterLogos}> 
       <a
         target="_blank"
         rel="noreferrer"
