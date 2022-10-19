@@ -2,16 +2,33 @@ import { Card, Descriptions, Space } from 'antd'
 import { useTranslation } from 'next-export-i18n'
 import Link from 'next/link'
 import { FaGithub } from 'react-icons/fa'
+import { HiLink } from 'react-icons/hi'
 import Layout from '../components/Layout'
 import styles from '../styles/Team.module.scss'
 
-interface Member {
+
+type MemberLink = {
+    type: 'github' | 'other'
+    title: string
+    url: string
+}
+
+type Member = {
     name: string;
     image?: string;
     role: string;
-    github?: string;
     studies: string;
     occupancy_in_tufast: string;
+    links: MemberLink[]
+}
+
+const LinkIcon: React.FC<{icon: MemberLink['type']}> = ({ icon }) => {
+    switch (icon) {
+        case 'github':
+            return <FaGithub size={25} />
+        default:
+            return <HiLink size={25} />
+    }
 }
 
 const Team = () => {
@@ -24,9 +41,13 @@ const Team = () => {
             key={member.name}
             className={styles.card}
             cover={member.image ? <img src={member.image} alt={member.name} className={styles.cardImg} /> : null}
-            actions={[
-                member.github ? <Link key="github" href={member.github} passHref><a style={{color: '#000b', }}><FaGithub size={25} /></a></Link> : null
-            ]}
+            actions={member.links.map((link, i) => (
+                <Link key={i} href={link.url} passHref>
+                    <a style={{color: '#000b', }} title={link.title}>
+                        <LinkIcon icon={link.type} />
+                    </a>
+                </Link>
+            ))}
         >
             <Card.Meta
                 title={<div style={{ fontWeight: 'bold', textAlign: 'center', width: '100%' }}>{member.name}</div>}

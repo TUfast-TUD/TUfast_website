@@ -48,33 +48,62 @@
           "name": "Oliver Hausdörfer",
           "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
           "role": "Team Lead",
-          "github": "https://github.com/OliEfr",
           "studies": "M.Sc. Robotics, TU Munich",
-          "occupancy_in_tufast": "Project management"
+          "occupancy_in_tufast": "Project management",
+          "links": [
+            {
+              "type": "github",
+              "title": "GitHub",
+              "url": "https://github.com/OliEfr"
+            }
+          ]
         },
         {
           "name": "Lennart Guderian",
           "image": "https://lennart.guderian.de/images/other/Headshot_low.jpg",
           "role": "Team Co-Lead",
-          "github": "https://github.com/Noxdor",
           "studies": "Dipl.-Ing. Mechatronics, TU Dresden",
-          "occupancy_in_tufast": "Design; front-end development"
+          "occupancy_in_tufast": "Design; front-end development",
+          "links": [
+            {
+              "type": "github",
+              "title": "GitHub",
+              "url": "https://github.com/Noxdor"
+            }
+          ]
         },
         {
           "name": "Lucas Fugmann",
           "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
           "role": "Website Lead",
-          "github": "https://github.com/FugiMuffi",
           "studies": "B.Sc. Computer Science, TU Dresden",
-          "occupancy_in_tufast": "Development Website; backend expert"
+          "occupancy_in_tufast": "Development Website; backend expert",
+          "links": [
+            {
+              "type": "github",
+              "title": "GitHub",
+              "url": "https://github.com/FugiMuffi"
+            },
+            {
+              "type": "other",
+              "title": "Website",
+              "url": "https://fugi.dev"
+            }
+          ]
         },
         {
           "name": "Daniel Kluge",
           "role": "TUfast Lead",
           "image": "https://avatars.githubusercontent.com/u/43993811",
-          "github": "https://github.com/C0ntroller",
           "studies": "Dipl.-Ing. Information Systems Engineering, TU Dresden",
-          "occupancy_in_tufast": "Development; web-extension expert"
+          "occupancy_in_tufast": "Development; web-extension expert",
+          "links": [
+            {
+              "type": "github",
+              "title": "GitHub",
+              "url": "https://github.com/C0ntroller"
+            }
+          ]
         }
       ],
       "former": [
@@ -83,7 +112,8 @@
           "image": "https://hausdoerfer.de/jpolzer.jpg",
           "role": "Marketing Lead",
           "studies": "Medical studies, TU Dresden",
-          "occupancy_in_tufast": "Marketing; PR"
+          "occupancy_in_tufast": "Marketing; PR",
+          "links": []
         }
       ]
     }
