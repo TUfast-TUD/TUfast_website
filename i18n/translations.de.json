@@ -13,12 +13,12 @@
     "subHeading": "Für TU Dresden Studierende (und Mitarbeiter).",
     "installPrompt": "Jetzt laden für",
     "availableFor": "Verfügbar für [Firefox]({{firefox}}), [Chrome]({{chrome}}) und [Edge]({{chrome}}) Browser",
-    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\nTUfast ist das #1 Produktivitätstool für TU Dresden Studierende.\nSeit zwei Jahren entwickeln wir das perfekte Produkt, um den Studienalltag zu erleichtern.\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\nDas #1 Produktivitätstool für TU Dresden Studierende.\n\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
   },
   "projectAndVision": {
     "content": [
       "## Über das Projekt",
-      "TUfast wurde im Mai 2020 veröffentlicht und wird am 01.01.2022 von über 2500 Studierenden genutzt. Das Projekt ist quelloffen auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden der TU Dresden entwickelt.",
+      "Seit mehr als zwei Jahren entwickeln wir das perfekte Produkt, um dir den Studienalltag zu erleichtern. TUfast wurde im Mai 2020 veröffentlicht und wird am 15.01.2022 von über 2700 Studierenden genutzt. Das Projekt ist quelloffen auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden der TU Dresden entwickelt.",
       "### Was kann TUfast? 🚀",
       "TUfast ist ein Produktivitätstool für Studierende und hilft beim alltäglichen Lernen. Mit TUfast kannst du 2000 Klicks und 90 Minuten pro Semester sparen!",
       "Dafür stell TUfast eine Reihe an Funktionen zur Verfügung. Dazu gehören:",
@@ -26,11 +26,10 @@
       "### Ist TUfast sicher? 🔐",
       "TUfast speichert nutzerbezogene Daten ausschließlich lokal auf deinem Gerät. Wenn du die Erweiterung löschst, werden auch alle Daten gelöscht. Außerdem wird TUfast aktuell von der Informationssicherheit der TU Dresden überprüft. Hier findest du die [Datenschutzerklärung](/datenschutz).",
       "### Wie gehts weiter? 🔮",
-      "Wir möchte TUfast für 5000+ Studierende an der TU Dresden verfügbar machen, sowie für eine weitere Hochschule in Sachsen bis zum Ende des Jahres.",
-      "Aktuell suchen wir nach Funding und Inkubatoren für das Projekt.",
+      "Wir möchte TUfast für 5000+ Studierende an der TU Dresden verfügbar machen, sowie für eine weitere Hochschule in Sachsen.",
       "### Projektunterstützer ❤️",
-      "Das Projekt wird aktuell unterstützt von:",
-      " - Frau Jantos, der eLearning-Koordinatorin der TU Dresden\n - Dem [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) des Stifterverbandes\n - Der Projektschau der Fakultät Informatik der TU Dresden [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Einige Fachschaftsräte",
+      "Das Projekt wird unterstützt von:",
+      " - Frau Jantos, der eLearning-Koordinatorin der TU Dresden\n - Dem [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) des Stifterverbandes\n - Der Projektschau der Fakultät Informatik der TU Dresden [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Fachschaftsräten",
       "***"
     ]
   },
@@ -93,14 +92,12 @@
     "content": [
       "## Jobs",
       "**Das beste an TUfast?** Softwareentwicklung in der Praxis für über 3000 Studierende!",
-      "**Du bist interessiert?** Schreibe uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) und beantworte die folgenden zwei Fragen: 1. Was sind deine wichtigsten Prinzipiel bei der Softwareentwicklung? 2. In welchem Bereich möchtest du Arbeiten? Wir antworten dir innerhalb von 5 Tagen.",
-      "Wir selbst sind alle dabei, um zu lernen. Deswegen sind uns deine Motivation und Grundsätze wichtiger als technische Vorkenntnisse.",
+      "**Du bist interessiert?** Schreibe uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) und beantworte die folgenden zwei Fragen: 1.) Was sind deine wichtigsten Prinzipien in der Softwareentwicklung? 2.) In welchem Bereich möchtest du Arbeiten? Wir antworten dir innerhalb von 5 Tagen.",
       "Nach einem Jahr Mitgliedschaft kannst du ein Zertifikat erhalten für deine Beiträge und Engagement im Projekt.",
       "### Muss ich Programmieren können, um am Projekt teilzuhaben?",
-      "Wenn du Software entwickeln willst, sind Vorerfahrungen mit git und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert.",
-      "Wenn du nicht coden kannst, aber am Projekt sehr interessiert bist, kannst du trotzdem gerne mitmachen. Es gibt viele Aufgaben, die sich für den Einstieg in die Webentwicklung anbieten. Außerdem suchen wir auch Studierende, die sich für Projektmanagement, Marketing und Einwerben von Fördergeldern interessieren.",
+      "Wenn du Software entwickeln willst, sind Vorerfahrungen mit git und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert. Neben Programmiertätigkeiten haben wir auch Aufgaben im Bereich Projektmanagement, Marketing und Fördergelder.",
       "### Offene Stellen",
-      "Wir haben einige Stellen zusammengetragen, die wir gerne besetzten würde. Du kannst jedoch jederzeit Aufgaben übernehmen, auf die du Lust hast und eigene Ideen einbringen."
+      "Hier haben wir einige Ideen zusammengetragen. Wir bauen aber auf deine eigenen Ideen und Visionen!"
     ],
     "listings": [
       {
@@ -132,7 +129,7 @@
           "Entwicklung",
           "IT-Security"
         ],
-        "content": "Wir suchen nach jemanden, der sich gerne mit der IT-Security von TUfast beschäftigen möchte. Wir haben Rücksprache und ein Scrutiny von der Informationssicherheit der TU Dresden erhalten. Zukünftig möchten wir die IT-Sicherheit gerne intern beurteilen und entsprechende Maßnahmen implementieren. \n\n Learnings: IT-Sicherheit, Web-Sicherheit, Webentwicklung"
+        "content": "Du hast Spaß an IT-Security? Wir suchen nach jemanden, der diesen Bereich bei TUfast übernehmen möchte. Wir haben bereits Rücksprache mit der IT-Sicherheit der TU Dresden und damit Implementierungsvorschläge erhalten. Zukünftig möchten wir die IT-Sicherheit gerne intern beurteilen und entsprechende Maßnahmen implementieren. \n\n Learnings: IT-Sicherheit, Web-Sicherheit, Webentwicklung"
       },
       {
         "title": "TUfast Telemetry",
@@ -140,7 +137,7 @@
           "Entwicklung",
           "Produktmanagement"
         ],
-        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen auf unserer Website veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry) und implementierst es. \n\n Learnings: Produkttelemetrie, Backend Design und Implementierung"
+        "content": "Mit 100% anonymen Nutzungsdaten wollen wir TUfast weiter verbessern. Diese Nutzungsdaten sollen auf unserer Website veröffentlicht werden. Du überlegst dir, wie das am Besten umgesetzt werden kann (ClickHouse, OpenTelemetry). \n\n Learnings: Produkttelemetrie, Backend Design und Implementierung"
       },
       {
         "title": "Marketing",
