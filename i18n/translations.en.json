@@ -13,12 +13,12 @@
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}), [Chrome]({{chrome}}) and [Edge]({{chrome}}) browsers",
-    "infoSection": "### By students, for students. Free & Open Source.\nTUfast is the #1 productivity tool for students at TU Dresden.\nFor two years, we have been creating the perfect product to make your everyday study life easier.\n\nFind out more about the project on this site and install TUfast now!"
+    "infoSection": "### By students, for students. Free & Open Source.\nThe #1 productivity tool for students at TU Dresden.\n\n\nFind out more about the project on this site and install TUfast now!"
   },
   "projectAndVision": {
     "content": [
       "## About the project",
-      "TUfast was released in May 2020 and has more than 2500 students using it as of 01.01.2022. The open-source project is developed by students at TU Dresden.",
+      "For two years, we have been creating the perfect product to make your everyday study life easier. TUfast was released in May 2020 and has more than 2700 students using it as of 01.10.2022. The open-source project is developed by students at TU Dresden.",
       "### What does TUfast do? 🚀",
       "TUfast is a productivity tool, which supports students in their everyday life. With TUfast you can save up to 2000 Clicks and 90 minutes per semester!",
       "To do this, TUfast provides a number of features to make your everyday studies easier, such as:",
@@ -26,11 +26,10 @@
       "### Is TUfast secure? 🔐",
       "The TUfast extension stores user data only locally on your device. If you uninstall the extension, all data will be deleted as well. Additionally, TUfast is currently being audited by the department of IT security of TU Dresden. Here you can find our [privacy policy](/datenschutz).",
       "### Whats next? 🔮",
-      "We want to make TUfast available for 5000+ students at TU Dresden and for at least one more university in Saxony by end of this year.",
-      "In addition, we are currently looking for funding and incubators.",
+      "We want to make TUfast available for 5000+ students at TU Dresden and for at least one more university in Saxony.",
       "### Supporters ❤️",
-      "Supporters of the project include:",
-      " - Ms. Jantos, the eLearning coordinator of TU Dresden\n - The [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) of the Stifterverband\n - Exhibiting of the Faculty of Computer Science at TU Dresden: [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Several student councils",
+      "Supporters of the project:",
+      " - Ms. Jantos, the eLearning coordinator of TU Dresden\n - The [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) of the Stifterverband\n - Exhibition of the Faculty of Computer Science at TU Dresden: [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Student councils",
       "***"
     ]
   },
@@ -93,13 +92,12 @@
     "content": [
       "## Jobs",
       "**The best thing about TUfast?** Software development in real-life for more than 3000 students.",
-      "**Are you interested?** Write us an e-mail at [frage@tu-fast.de](mailto:frage@tu-fast.de) answering the following two questions: 1. What are your top principles in software development? 2. Which part of the project would you like to work on? We will answer every mail within 5 days.",
+      "**Are you interested?** Write us an e-mail at [frage@tu-fast.de](mailto:frage@tu-fast.de) answering the following two questions: 1.) What are your most important principles in software development? 2.) Which part of the project would you like to work on? We will answer every mail within 5 days.",
       "After one year of membership, you can receive a certificate for your contributions and involvement in the project.",
       "### Do I need to be able to write software to participate?",
-      "If you want to develop software, previous experience with git and web technologies is useful. However, our tech stack is not complicated.",
-      "If you cannot code but are really interested in the project, you are still welcome to participate. We have many tasks that would be suitable to get into web development. Beyond that, we are also looking for students interested in project management, product communication and marketing.",
+      "If you want to contribute to our software directly, previous experience with git and web technologies is useful. However, our tech stack is not complicated and we can accomodate rookies. Besides, we have tasks in project management and marketing.",
       "### Working areas",
-      "Below we listed working areas which we would like to develop. However, you can do what you are interested in and provide own ideas at any time."
+      "Below we listed some ideas we would like to develop. However, we are counting on your ideas and vision for the project."
     ],
     "listings": [
       {
@@ -114,7 +112,7 @@
         "tags": [
           "Development"
         ],
-        "content": "Service-Workers are the latest trend in web technologies - that's why we want to switch to them as well. This will enable us to make TUfast available for mobile devices and to add many new features. \n\n Learnings: Mobile optimization, service workers"
+        "content": "Service-Workers are the latest trend in web technologies - that's why we want to use them. This will enable us to make TUfast available for mobile devices and to add many new features. \n\n Learnings: Mobile optimization, service workers"
       },
       {
         "title": "TUfast for HTW (and other Universities)",
@@ -123,7 +121,7 @@
           "Product management",
           "Project management"
         ],
-        "content": "TUfast is great - students at the HTW have also noticed that. Therefore, we would like to make TUfast available for HTW as well by the end of the year. This includes: Designing a software concept to integrate more universities and implementing it for HTW. \n\n Learning: Software design, web development, user oriented services"
+        "content": "TUfast is great - students at the HTW also noticed that. Therefore, we would like to make TUfast available for HTW as well. This includes: Designing a software concept to integrate more universities and implementing it for HTW. \n\n Learning: Software design, web development, user oriented services"
       },
       {
         "title": "IT Security",
@@ -131,7 +129,7 @@
           "IT Security",
           "Development"
         ],
-        "content": "We are looking for someone who looks into the security aspects of TUfast. We already got feedback and a scrutiny from the Informationssicherheit TU Dresden. In the future, we would like to evaluate security internally and implement measures accordingly. \n\n Learnings: IT security, Websecurity, Webdevelopment"
+        "content": "You are interested in IT-Security? Perfect! We are looking for someone who looks into the security aspects of TUfast. We already got feedback and a scrutiny from the Informationssicherheit TU Dresden. In the future, we would like to evaluate security internally and implement measures accordingly. \n\n Learnings: IT security, Websecurity, Webdevelopment"
       },
       {
         "title": "TUfast Telemetry",
@@ -139,7 +137,7 @@
           "Development",
           "Product management"
         ],
-        "content": "We want to collect anonymous usage data for TUfast to make the service even better. This data should be published on our website as well. Possible tools include Clickhouse or OpenTelemetry. \n\n Learnings: Product telemetry, back-end design and implementation"
+        "content": "We would like to collect anonymous usage data for TUfast to make the service even better. This data should be published on our website as well. Possible tools include Clickhouse or OpenTelemetry. \n\n Learnings: Product telemetry, back-end design and implementation"
       },
       {
         "title": "Marketing",
