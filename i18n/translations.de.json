@@ -107,6 +107,11 @@
               "type": "github",
               "title": "GitHub",
               "url": "https://github.com/C0ntroller"
+            },
+            {
+              "type": "other",
+              "title": "Website",
+              "url": "https://c0ntroller.de"
             }
           ]
         }
