@@ -78,25 +78,6 @@
           ]
         },
         {
-          "name": "Lucas Fugmann",
-          "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
-          "role": "Website Lead",
-          "studies": "B.Sc. Computer Science, TU Dresden",
-          "occupancy_in_tufast": "Development Website; backend expert",
-          "links": [
-            {
-              "type": "github",
-              "title": "GitHub",
-              "url": "https://github.com/FugiMuffi"
-            },
-            {
-              "type": "other",
-              "title": "Website",
-              "url": "https://fugi.dev"
-            }
-          ]
-        },
-        {
           "name": "Daniel Kluge",
           "role": "TUfast Lead",
           "image": "https://avatars.githubusercontent.com/u/43993811",
@@ -124,6 +105,20 @@
           "studies": "Medical studies, TU Dresden",
           "occupancy_in_tufast": "Marketing; PR",
           "links": []
+        },
+        {
+          "name": "Fugi",
+          "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
+          "role": "Website Lead",
+          "studies": "B.Sc. Computer Science, TU Dresden",
+          "occupancy_in_tufast": "Development Website; backend expert",
+          "links": [
+            {
+              "type": "other",
+              "title": "Website",
+              "url": "https://fugi.dev"
+            }
+          ]
         }
       ]
     }
