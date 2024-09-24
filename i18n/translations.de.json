@@ -5,7 +5,8 @@
     "en": "🇬🇧 Englisch"
   },
   "nav": {
-    "projectAndVision": "Projekt"
+    "projectAndVision": "Projekt",
+    "jobs": "Ideen"
   },
   "index": {
     "mainHeadingTUfast": "TUfast",
@@ -13,12 +14,12 @@
     "subHeading": "Für TU Dresden Studierende (und Mitarbeiter).",
     "installPrompt": "Jetzt laden für",
     "availableFor": "Verfügbar für [Firefox]({{firefox}}), [Chrome]({{chrome}}) und [Edge]({{chrome}}) Browser",
-    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\nDas #1 Produktivitätstool für TU Dresden Studierende.\n\n\nErfahre auf dieser Seite alles über das Projekt und installiere TUfast für deinen Browser."
+    "infoSection": "### Von Studierenden, für Studierende. Kostenlos & Open Source.\n**Das #1 Produktivitätstool für TU Dresden Studierende.**\n\n\nErfahre unten mehr über das Projekt und installiere TUfast für deinen Browser!"
   },
   "projectAndVision": {
     "content": [
       "## Über das Projekt",
-      "Wir entwickeln das perfekte Tool, um deinen Studienalltag zu erleichtern. TUfast wurde im Mai 2020 veröffentlicht und wird am 01.03.2023 von über 3000 Studierenden genutzt. Das Projekt ist [open source](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden der TU Dresden entwickelt.",
+      "Wir entwickeln das perfekte Tool, um deinen Studienalltag zu erleichtern. TUfast wurde im Mai 2020 veröffentlicht und wird am 01.03.2023 von über 3000 Studierenden genutzt. Das Projekt ist [open source](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden und Alumni der TU Dresden entwickelt.",
       "### Was kann TUfast? 🚀",
       "TUfast ist ein Produktivitätstool für Studierende und hilft beim alltäglichen Lernen. Mit TUfast kannst du 2000 Klicks und 90 Minuten pro Semester sparen!",
       "Dafür stell TUfast eine Reihe an Funktionen zur Verfügung. Dazu gehören:",
@@ -48,7 +49,7 @@
           "name": "Oliver Hausdörfer",
           "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
           "role": "Teamleitung",
-          "studies": "M.Sc. Robotik, TU München",
+          "studies":"PhD student. M.Sc. Robotics, TU Munich. Alumni B.Sc. Maschinenbau, TU Dresden.",
           "occupancy_in_tufast": "Projektmanagement",
           "links": [
             {
@@ -59,7 +60,7 @@
             {
               "type": "other",
               "title": "Website",
-              "url": "https://www.theuncomfortable.com/"
+              "url": "https://oliver.hausdoerfer.de/"
             }
           ]
         },
@@ -79,10 +80,10 @@
         },
         {
           "name": "Daniel Kluge",
-          "role": "Leitung TUfast",
+          "role": "Leitung TUfast Entwicklung",
           "image": "https://avatars.githubusercontent.com/u/43993811",
-          "studies": "Dipl.-Ing. Informationssystemtechnik",
-          "occupancy_in_tufast": "Entwicklung TUfast; Web-Extension Experte",
+          "studies": "Alumni Dipl.-Ing. Informationssystemtechnik",
+          "occupancy_in_tufast": "Entwicklung TUfast; Web-Extension",
           "links": [
             {
               "type": "github",
@@ -102,7 +103,7 @@
           "name": "Jan Polzer",
           "image": "https://hausdoerfer.de/jpolzer.jpg",
           "role": "Leitung Marketing",
-          "studies": "Medizin, TU Dresden",
+          "studies": "Alumni Medizin, TU Dresden",
           "occupancy_in_tufast": "Marketing; Öffentlichkeitsarbeit",
           "links": []
         },
@@ -110,8 +111,8 @@
           "name": "Fugi",
           "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
           "role": "Leitung Website",
-          "studies": "B.Sc. Informatik, TU Dresden",
-          "occupancy_in_tufast": "Entwicklung Website, Backend",
+          "studies": "Alumni B.Sc. Informatik, TU Dresden",
+          "occupancy_in_tufast": "Entwicklung Website; Backend",
           "links": [
             {
               "type": "other",
@@ -125,14 +126,10 @@
   },
   "jobs": {
     "content": [
-      "## Jobs",
+      "## Ideen",
       "**Das beste an TUfast?** Softwareentwicklung in der Praxis für über 3000 Studierende!",
-      "**Du bist interessiert?** Schreibe uns eine Mail an [frage@tu-fast.de](mailto:frage@tu-fast.de) und beantworte die folgenden zwei Fragen: 1.) Was sind deine wichtigsten Prinzipien in der Softwareentwicklung? 2.) In welchem Bereich möchtest du Arbeiten? Wir antworten dir innerhalb von 5 Tagen.",
-      "Nach einem Jahr Mitgliedschaft kannst du ein Zertifikat erhalten für deine Beiträge und Engagement im Projekt.",
-      "### Muss ich Programmieren können, um am Projekt teilzuhaben?",
-      "Wenn du Software entwickeln willst, sind Vorerfahrungen mit git und Webtechnologien nützlich. Unser Tech-Stack ist jedoch nicht kompliziert und wir haben auch Aufgaben für rookies. Neben Programmiertätigkeiten haben wir auch Aufgaben im Bereich Projektmanagement, Marketing und Fördergelder.",
-      "### Offene Stellen",
-      "Hier haben wir einige Ideen zusammengetragen. Wir bauen aber auf deine eigenen Ideen und Visionen für die Zukunft des Projekts!"
+      "**Wenn du interessiert bist, kannst du einfach loslegen mit entwickeln!** Am besten sprichst du auf [GitHub](https://github.com/TUfast-TUD/TUfast_TUD), über E-Mail: frage@tu-fast.de, oder in [matrix](https://matrix.to/#/#tu-fast:tu-dresden.de) mit uns ab, wenn du ein neues Feature entwickeln möchtest. Siehe auch im [Contributing.md file](https://github.com/TUfast-TUD/TUfast_TUD/blob/main/CONTRIBUTING.md) auf GitHub nach.",
+      "Hier haben wir einige Ideen zusammengetragen, mit denen sich das Projekt weiterentwickeln kann. Wir sind aber immer offen für eure Vorschläge und Beteiligungen!"
     ],
     "listings": [
       {

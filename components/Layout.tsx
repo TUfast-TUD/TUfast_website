@@ -60,7 +60,7 @@ const TUfastLayout: NextPage<LayoutProps> = ({children, site, siteKey}) => {
         {
             key: 'jobs',
             href: '/jobs',
-            text: 'Jobs',
+            text: t('nav.jobs'),
         },
         // {
         //     key: 'blog',

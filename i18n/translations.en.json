@@ -5,7 +5,8 @@
     "en": "🇬🇧 English"
   },
   "nav": {
-    "projectAndVision": "Project"
+    "projectAndVision": "Project",
+    "jobs": "Ideas"
   },
   "index": {
     "mainHeadingTUfast": "TUfast",
@@ -13,12 +14,12 @@
     "subHeading": "For TU Dresden students (and employees).",
     "installPrompt": "Get it now for",
     "availableFor": "Available for [Firefox]({{firefox}}), [Chrome]({{chrome}}) and [Edge]({{chrome}}) browsers",
-    "infoSection": "### By students, for students. Free & Open Source.\nThe #1 productivity tool for students at TU Dresden.\n\n\nFind out more about the project on this site and install TUfast now!"
+    "infoSection": "### By students, for students. Free & Open Source.\n**The #1 productivity tool for students at TU Dresden.**\n\n\nFind out more about the project below and install TUfast for your browser!"
   },
   "projectAndVision": {
     "content": [
       "## About the project",
-      "We create the perfect tool to make your student life easier! TUfast was released in May 2020 and has more than 3000 users as of 01.03.2023. The project is [open-source](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students at TU Dresden.",
+      "We create the perfect tool to make your student life easier! TUfast was released in May 2020 and has more than 3000 users as of 01.03.2023. The project is [open-source](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students and alumni of TU Dresden.",
       "### What does TUfast do? 🚀",
       "TUfast is a productivity tool, which supports students in their everyday life. With TUfast you can save up to 2000 Clicks and 90 minutes per semester!",
       "To do this, TUfast provides a number of features to make your everyday studies easier, such as:",
@@ -48,7 +49,7 @@
           "name": "Oliver Hausdörfer",
           "image": "https://hausdoerfer.de/ohausdoerfer2.jpg",
           "role": "Team Lead",
-          "studies": "M.Sc. Robotics, TU Munich",
+          "studies": "PhD student. M.Sc. Robotics, TU Munich. Alumni B.Sc. Mechanical Engineering, TU Dresden.",
           "occupancy_in_tufast": "Project management",
           "links": [
             {
@@ -59,7 +60,7 @@
             {
               "type": "other",
               "title": "Website",
-              "url": "https://www.theuncomfortable.com/"
+              "url": "https://oliver.hausdoerfer.de/"
             }
           ]
         },
@@ -68,7 +69,7 @@
           "image": "https://lennart.guderian.de/images/other/Headshot_low.jpg",
           "role": "Team Co-Lead",
           "studies": "Dipl.-Ing. Mechatronics, TU Dresden",
-          "occupancy_in_tufast": "Design; front-end development",
+          "occupancy_in_tufast": "Design; development; front-end",
           "links": [
             {
               "type": "github",
@@ -79,10 +80,10 @@
         },
         {
           "name": "Daniel Kluge",
-          "role": "TUfast Lead",
+          "role": "TUfast Development Lead",
           "image": "https://avatars.githubusercontent.com/u/43993811",
-          "studies": "Dipl.-Ing. Information Systems Engineering, TU Dresden",
-          "occupancy_in_tufast": "Development; web-extension expert",
+          "studies": "Alumni Dipl.-Ing. Information Systems Engineering, TU Dresden",
+          "occupancy_in_tufast": "Development; web-extension",
           "links": [
             {
               "type": "github",
@@ -102,7 +103,7 @@
           "name": "Jan Polzer",
           "image": "https://hausdoerfer.de/jpolzer.jpg",
           "role": "Marketing Lead",
-          "studies": "Medical studies, TU Dresden",
+          "studies": "Alumni Medical studies, TU Dresden",
           "occupancy_in_tufast": "Marketing; PR",
           "links": []
         },
@@ -110,8 +111,8 @@
           "name": "Fugi",
           "image": "https://www.gravatar.com/avatar/ba104599ebbe494f2f8a9e29ebcf0ed7?s=512",
           "role": "Website Lead",
-          "studies": "B.Sc. Computer Science, TU Dresden",
-          "occupancy_in_tufast": "Development Website; backend expert",
+          "studies": "Alumni B.Sc. Computer Science, TU Dresden",
+          "occupancy_in_tufast": "Development; backend; website",
           "links": [
             {
               "type": "other",
@@ -125,14 +126,10 @@
   },
   "jobs": {
     "content": [
-      "## Jobs",
-      "**The best thing about TUfast?** Software development in real-life for more than 3000 students.",
-      "**Are you interested?** Write us an e-mail at [frage@tu-fast.de](mailto:frage@tu-fast.de) answering the following two questions: 1.) What are your most important principles in software development? 2.) Which part of the project would you like to work on? We will answer every mail within 5 days.",
-      "After one year of membership, you can receive a certificate for your contributions and involvement in the project.",
-      "### Do I need to be able to write software to participate?",
-      "If you want to contribute to our software directly, previous experience with git and web technologies is useful. However, our tech stack is not complicated and we can accomodate rookies. Besides, we have tasks in project management and marketing.",
-      "### Working areas",
-      "Below we listed some ideas we would like to develop. However, we are counting on your ideas and vision for the project!"
+      "## Ideas",
+      "**The best thing about TUfast?** Software development in real-life for more than 3000 students!",
+      "**If you're interested, you can just start developing!** It's best to coordinate with us on [GitHub](https://github.com/TUfast-TUD/TUfast_TUD), via email: frage@tu-fast.de, or in [matrix](https://matrix.to/#/#tu-fast:tu-dresden.de), if you want to develop a new feature. Also, check the [Contributing.md file](https://github.com/TUfast-TUD/TUfast_TUD/blob/main/CONTRIBUTING.md) on GitHub.",
+      "Here, we've gathered some ideas on how the project can evolve further. But we are always open to your suggestions and contributions!"
     ],
     "listings": [
       {
