@@ -77,25 +77,6 @@
               "url": "https://github.com/Noxdor"
             }
           ]
-        },
-        {
-          "name": "Daniel Kluge",
-          "role": "TUfast Development Lead",
-          "image": "https://avatars.githubusercontent.com/u/43993811",
-          "studies": "Alumni Dipl.-Ing. Information Systems Engineering, TU Dresden",
-          "occupancy_in_tufast": "Development; web-extension",
-          "links": [
-            {
-              "type": "github",
-              "title": "GitHub",
-              "url": "https://github.com/C0ntroller"
-            },
-            {
-              "type": "other",
-              "title": "Website",
-              "url": "https://c0ntroller.de"
-            }
-          ]
         }
       ],
       "former": [
@@ -118,6 +99,25 @@
               "type": "other",
               "title": "Website",
               "url": "https://fugi.dev"
+            }
+          ]
+        },
+        {
+          "name": "Daniel Kluge",
+          "role": "TUfast Development Lead",
+          "image": "https://avatars.githubusercontent.com/u/43993811",
+          "studies": "Alumni Dipl.-Ing. Information Systems Engineering, TU Dresden",
+          "occupancy_in_tufast": "Development; web-extension",
+          "links": [
+            {
+              "type": "github",
+              "title": "GitHub",
+              "url": "https://github.com/C0ntroller"
+            },
+            {
+              "type": "other",
+              "title": "Website",
+              "url": "https://c0ntroller.de"
             }
           ]
         }
