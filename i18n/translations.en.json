@@ -19,18 +19,18 @@
   "projectAndVision": {
     "content": [
       "## About the project",
-      "We create the perfect tool to make your student life easier! TUfast was released in May 2020 and has more than 3000 users as of 01.03.2023. The project is [open-source](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students and alumni of TU Dresden.",
+      "We create the perfect tool to make your student life easier! TUfast was released in May 2020 and has more than 3000 users as of 01.03.2023. The project is [open-source](https://github.com/TUfast-TUD/TUfast_TUD) and developed by students and alumni of TU Dresden. TUfast is not officially related with the TU Dresden. For all questions contact [frage@tu-fast.de](frage@tu-fast.de).",
       "### What does TUfast do? 🚀",
       "TUfast is a productivity tool, which supports students in their everyday life. With TUfast you can save up to 2000 Clicks and 90 minutes per semester!",
       "To do this, TUfast provides a number of features to make your everyday studies easier, such as:",
       "- AutoLogin to all online platforms\n - Quick-access and hotkeys for many platforms\n - Supports SELMA, OPAL, jExam and many more\n - Overview of all your OPAL-courses as well as improvements for OPAL itself.\n - ... and many more that you can discover in TUfast ;)",
       "### Is TUfast secure? 🔐",
-      "The TUfast extension stores user data only locally on your device. If you uninstall the extension, all data will be deleted as well. Additionally, TUfast is currently being audited by the department of IT security of TU Dresden. Here you can find our [privacy policy](/datenschutz).",
+      "The TUfast extension stores user data only locally on your device. If you uninstall the extension, all data will be deleted as well. Here you can find our [privacy policy](/datenschutz).",
       "### Whats next? 🔮",
       "We want to make TUfast available for 5000+ students at TU Dresden and for at least one more university in Saxony.",
       "### Supporters ❤️",
       "Supporters of the project:",
-      " - Ms. Jantos, the eLearning coordinator of TU Dresden\n - The [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) of the Stifterverband\n - Exhibition of the Faculty of Computer Science at TU Dresden: [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Student councils",
+      " - The [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) of the Stifterverband\n - Exhibition of the Faculty of Computer Science at TU Dresden: [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Kind sponsors on [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Student councils",
       "***"
     ]
   },
