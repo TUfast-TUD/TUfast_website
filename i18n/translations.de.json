@@ -19,18 +19,18 @@
   "projectAndVision": {
     "content": [
       "## Über das Projekt",
-      "Wir entwickeln das perfekte Tool, um deinen Studienalltag zu erleichtern. TUfast wurde im Mai 2020 veröffentlicht und wird am 01.03.2023 von über 3000 Studierenden genutzt. Das Projekt ist [open source](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden und Alumni der TU Dresden entwickelt.",
+      "Wir entwickeln das perfekte Tool, um deinen Studienalltag zu erleichtern. TUfast wurde im Mai 2020 veröffentlicht und wird am 01.03.2023 von über 3000 Studierenden genutzt. Das Projekt ist [open source](https://github.com/TUfast-TUD/TUfast_TUD) und wird von Studierenden und Alumni der TU Dresden entwickelt. TUfast ist nicht offiziell affiliiert mit der TU Dresden. Für alle Fragen kontaktiert [frage@tu-fast.de](frage@tu-fast.de)",
       "### Was kann TUfast? 🚀",
       "TUfast ist ein Produktivitätstool für Studierende und hilft beim alltäglichen Lernen. Mit TUfast kannst du 2000 Klicks und 90 Minuten pro Semester sparen!",
       "Dafür stell TUfast eine Reihe an Funktionen zur Verfügung. Dazu gehören:",
       "- AutoLogin in alle Online-Portale\n - Schnellzugriff und Hotkeys für viele Online-Portale\n - Unterstützt SELMA, OPAL, jExam und Co.\n - Übersicht über alle OPAL-Kurse sowie Verbesserungen für OPAL\n - ... viele weitere kannst du in TUfast entdecken ;)",
       "### Ist TUfast sicher? 🔐",
-      "TUfast speichert nutzerbezogene Daten ausschließlich lokal auf deinem Gerät. Wenn du die Erweiterung löschst, werden auch alle Daten gelöscht. Außerdem wird TUfast aktuell von der Informationssicherheit der TU Dresden überprüft. Hier findest du die [Datenschutzerklärung](/datenschutz).",
+      "TUfast speichert nutzerbezogene Daten ausschließlich lokal auf deinem Gerät. Wenn du die Erweiterung löschst, werden auch alle Daten gelöscht. Hier findest du die [Datenschutzerklärung](/datenschutz).",
       "### Wie gehts weiter? 🔮",
       "Wir möchte TUfast für 5000+ Studierende an der TU Dresden verfügbar machen, sowie für eine weitere Hochschule in Sachsen.",
       "### Projektunterstützer ❤️",
       "Das Projekt wird unterstützt von:",
-      " - Frau Jantos, der eLearning-Koordinatorin der TU Dresden\n - Dem [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) des Stifterverbandes\n - Der Projektschau der Fakultät Informatik der TU Dresden [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Fachschaftsräten",
+      " - Dem [DigitalAcceleratorProgramm](https://www.stifterverband.org/digitalchangemaker-accelerator) des Stifterverbandes\n - Der Projektschau der Fakultät Informatik der TU Dresden [output-dd.de](https://output-dd.de/blog/project-post/tufast-tu-dresden-2/)\n - Netten Sponsoren auf [BuyMeACoffee](https://www.buymeacoffee.com/olihausdoerfer)\n- Fachschaftsräten",
       "***"
     ]
   },
