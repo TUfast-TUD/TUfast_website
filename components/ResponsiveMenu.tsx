@@ -10,7 +10,7 @@ import {
   IconChevronDown,
   IconMenu,
   IconBrandGithub
-} from '@tabler/icons-react';
+} from "@tabler/icons-react";
 import { useBrowser } from "../components/useBrowser";
 
 export type MenuItem = {
@@ -76,11 +76,11 @@ const ResponsiveMenu: React.FC<MenuProps> = ({ menuItems, siteKey }) => {
         </a>
       </Dropdown>
       <a
-        href='https://github.com/TUfast-TUD/TUfast_TUD'
-        target='_blank'
-        rel='noreferrer'
+        href="https://github.com/TUfast-TUD/TUfast_TUD"
+        target="_blank"
+        rel="noreferrer"
         className={`${styles.githubLink} ${styles.desktop}`}
-        aria-label='TUfast GitHub Repository'
+        aria-label="TUfast GitHub Repository"
       >
         <IconBrandGithub />
       </a>
