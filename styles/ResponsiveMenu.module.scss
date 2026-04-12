@@ -18,6 +18,17 @@
   stroke: currentColor;
 }
 
+.githubLink {
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--tuf-fakeblack);
+}
+
+.githubLink:hover {
+  color: var(--tuf-accent);
+}
+
 .heroButton {
   background-color: var(--tuf-accent);
   border-radius: 4px;

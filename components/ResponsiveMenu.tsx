@@ -5,7 +5,12 @@ import React, { useState } from "react";
 import styles from "../styles/ResponsiveMenu.module.scss";
 import { LanguageSwitcher, useTranslation } from "next-export-i18n";
 import SubMenu from "antd/lib/menu/SubMenu";
-import { IconLanguage, IconChevronDown, IconMenu } from "@tabler/icons-react";
+import {
+  IconLanguage,
+  IconChevronDown,
+  IconMenu,
+  IconBrandGithub
+} from '@tabler/icons-react';
 import { useBrowser } from "../components/useBrowser";
 
 export type MenuItem = {
@@ -70,6 +75,15 @@ const ResponsiveMenu: React.FC<MenuProps> = ({ menuItems, siteKey }) => {
           <IconLanguage /> Sprache <IconChevronDown />
         </a>
       </Dropdown>
+      <a
+        href='https://github.com/TUfast-TUD/TUfast_TUD'
+        target='_blank'
+        rel='noreferrer'
+        className={`${styles.githubLink} ${styles.desktop}`}
+        aria-label='TUfast GitHub Repository'
+      >
+        <IconBrandGithub />
+      </a>
       <a href={browser.url} target={"_blank"} rel="noreferrer">
         <div>
           <span
