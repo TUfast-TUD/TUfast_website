@@ -7,6 +7,7 @@ import { LanguageSwitcher, useTranslation } from "next-export-i18n";
 import SubMenu from "antd/lib/menu/SubMenu";
 import { IconLanguage, IconChevronDown, IconMenu } from "@tabler/icons-react";
 import { useBrowser } from "../components/useBrowser";
+import GithubLink from "./GithubLink";
 
 export type MenuItem = {
   key: string;
@@ -58,6 +59,7 @@ const ResponsiveMenu: React.FC<MenuProps> = ({ menuItems, siteKey }) => {
           </Menu.Item>
         ))}
       </Menu>
+      <GithubLink />
       <Dropdown
         overlay={languageSelector}
         trigger={["click"]}
