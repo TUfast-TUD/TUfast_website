@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import styles from "../styles/GithubLink.module.scss";
 
-const REPO_URL = "https://github.com/TUfast-TUD/TUfast_website";
+const REPO_URL = "https://github.com/TUfast-TUD/TUfast_TUD";
 
 export default function GithubLink() {
   return (
