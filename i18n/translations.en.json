@@ -121,7 +121,7 @@
         ]
       },
       {
-        "status": "Active",
+        "status": "Former",
         "name": "Steen Thomsen",
         "role": "Design",
         "image": "https://avatars.githubusercontent.com/u/199160993",
@@ -132,6 +132,11 @@
             "type": "github",
             "title": "GitHub",
             "url": "https://github.com/thomsste"
+          },
+          {
+            "type": "other",
+            "title": "Website",
+            "url": "https://studiothomsen.de"
           }
         ]
       },
